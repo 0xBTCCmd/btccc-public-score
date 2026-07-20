@@ -1,26 +1,27 @@
 {
-  "score": 64,
-  "confidence": 0.35,
+  "score": 83,
+  "confidence": 0.53,
   "regime": "Normal",
   "tregime": "Seitwärts",
   "calMults": {
-    "Trend": 1.04,
-    "CVD": 0.71,
-    "Orderbook": 0.99
+    "Trend": 0.97,
+    "RSI": 0.9,
+    "CVD": 0.65,
+    "Orderbook": 1.16
   },
-  "dominance": 56.52702844744599,
-  "price": 64580,
-  "t": 1784512360,
+  "dominance": 56.52947595077487,
+  "price": 64780,
+  "t": 1784512960,
   "fv": 3,
   "rearview": {
-    "points": 1115,
+    "points": 1116,
     "rows": [
       {
         "type": "high",
         "hi": 60,
         "horizon": "4h",
-        "n": 407,
-        "avg": 0.0675543208685013
+        "n": 408,
+        "avg": 0.07261061569260696
       },
       {
         "type": "low",
@@ -33,8 +34,8 @@
         "type": "high",
         "hi": 60,
         "horizon": "24h",
-        "n": 391,
-        "avg": -0.16045318311783965
+        "n": 392,
+        "avg": -0.13447249937305253
       },
       {
         "type": "low",
@@ -47,29 +48,29 @@
         "type": "high",
         "hi": 60,
         "horizon": "7d",
-        "n": 87,
-        "avg": 0.2542160194556643
+        "n": 88,
+        "avg": 0.4061262895723887
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "7d",
         "n": 236,
-        "avg": 2.766083860252925
+        "avg": 3.0273643682551477
       }
     ],
     "confRows": [
       {
         "type": "low",
-        "hits": 269,
-        "n": 742
+        "hits": 305,
+        "n": 743
       }
     ]
   },
   "recentTrack": {
-    "n": 753,
-    "hits": 274,
-    "hitRate": 0.36387782204515273,
+    "n": 754,
+    "hits": 310,
+    "hitRate": 0.41114058355437666,
     "windowDays": 14
   },
   "stability": {
@@ -95,8 +96,8 @@
     },
     {
       "pair": "RSI × Trend",
-      "agreement": 0.7521367521367521,
-      "n": 702
+      "agreement": 0.7524893314366998,
+      "n": 703
     },
     {
       "pair": "Long/Short × RSI",
@@ -105,13 +106,13 @@
     },
     {
       "pair": "CVD × Trend",
-      "agreement": 0.6704288939051919,
-      "n": 886
+      "agreement": 0.6708004509582863,
+      "n": 887
     },
     {
       "pair": "CVD × RSI",
-      "agreement": 0.5811648079306072,
-      "n": 807
+      "agreement": 0.5816831683168316,
+      "n": 808
     },
     {
       "pair": "Fear & Greed × RSI",
@@ -125,11 +126,17 @@
     },
     {
       "pair": "Orderbook × RSI",
-      "agreement": 0.4396135265700483,
-      "n": 207
+      "agreement": 0.4423076923076923,
+      "n": 208
     }
   ],
   "sessionCal": [
+    {
+      "sess": "Asia",
+      "label": "Impuls-Erschöpfung",
+      "hitRate": 1,
+      "n": 8
+    },
     {
       "sess": "London+NY",
       "label": "Impuls-Erschöpfung",
@@ -139,14 +146,8 @@
     {
       "sess": "London",
       "label": "Orderbook",
-      "hitRate": 0.8611111111111112,
-      "n": 36
-    },
-    {
-      "sess": "Asia",
-      "label": "Impuls-Erschöpfung",
-      "hitRate": 0.75,
-      "n": 8
+      "hitRate": 0.8108108108108109,
+      "n": 37
     },
     {
       "sess": "Asia",
@@ -155,28 +156,28 @@
       "n": 144
     },
     {
+      "sess": "London",
+      "label": "RSI",
+      "hitRate": 0.6129032258064516,
+      "n": 155
+    },
+    {
       "sess": "Zwischen Sessions",
       "label": "RSI",
       "hitRate": 0.5765765765765766,
       "n": 111
     },
     {
-      "sess": "Asia",
-      "label": "Orderbook",
-      "hitRate": 0.5609756097560976,
-      "n": 82
-    },
-    {
-      "sess": "London",
-      "label": "RSI",
-      "hitRate": 0.5584415584415584,
-      "n": 154
-    },
-    {
       "sess": "London",
       "label": "Fear & Greed",
       "hitRate": 0.5315315315315315,
       "n": 111
+    },
+    {
+      "sess": "Asia",
+      "label": "Trend",
+      "hitRate": 0.5190839694656488,
+      "n": 262
     },
     {
       "sess": "London+NY",
@@ -191,19 +192,19 @@
       "n": 20
     },
     {
-      "sess": "NY",
-      "label": "CVD",
-      "hitRate": 0.46445497630331756,
-      "n": 211
+      "sess": "Asia",
+      "label": "RSI",
+      "hitRate": 0.4977973568281938,
+      "n": 227
     },
     {
-      "sess": "Zwischen Sessions",
-      "label": "CVD",
-      "hitRate": 0.45,
-      "n": 120
+      "sess": "London",
+      "label": "Trend",
+      "hitRate": 0.477124183006536,
+      "n": 153
     }
   ],
-  "pulsePoints": 1115,
-  "activityPoints": 1042,
-  "outlierPoints": 1042
+  "pulsePoints": 1116,
+  "activityPoints": 1043,
+  "outlierPoints": 1043
 }
