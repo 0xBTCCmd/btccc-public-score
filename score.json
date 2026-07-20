@@ -1,26 +1,28 @@
 {
-  "score": 78,
-  "confidence": 0.5,
+  "score": 73,
+  "confidence": 0.3,
   "regime": "Normal",
   "tregime": "Seitwärts",
   "calMults": {
     "Trend": 1.04,
     "RSI": 0.99,
-    "CVD": 0.72
+    "CVD": 0.72,
+    "Orderbook": 0.97,
+    "Impuls-Erschöpfung": 1.05
   },
-  "dominance": 56.51415741645276,
-  "price": 64735,
-  "t": 1784518363,
+  "dominance": 56.52331864669028,
+  "price": 64877,
+  "t": 1784518960,
   "fv": 3,
   "rearview": {
-    "points": 1125,
+    "points": 1126,
     "rows": [
       {
         "type": "high",
         "hi": 60,
         "horizon": "4h",
-        "n": 417,
-        "avg": 0.07211065057656986
+        "n": 418,
+        "avg": 0.07494194284977065
       },
       {
         "type": "low",
@@ -33,8 +35,8 @@
         "type": "high",
         "hi": 60,
         "horizon": "24h",
-        "n": 400,
-        "avg": -0.13457517628546356
+        "n": 401,
+        "avg": -0.1139540515241002
       },
       {
         "type": "low",
@@ -47,29 +49,29 @@
         "type": "high",
         "hi": 60,
         "horizon": "7d",
-        "n": 97,
-        "avg": 0.36449708533519
+        "n": 98,
+        "avg": 0.48299297806077274
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "7d",
         "n": 236,
-        "avg": 2.972836220175612
+        "avg": 3.1488332268795562
       }
     ],
     "confRows": [
       {
         "type": "low",
-        "hits": 307,
-        "n": 749
+        "hits": 315,
+        "n": 750
       }
     ]
   },
   "recentTrack": {
-    "n": 760,
-    "hits": 312,
-    "hitRate": 0.4105263157894737,
+    "n": 761,
+    "hits": 320,
+    "hitRate": 0.4204993429697766,
     "windowDays": 14
   },
   "stability": {
@@ -95,8 +97,8 @@
     },
     {
       "pair": "RSI × Trend",
-      "agreement": 0.7556179775280899,
-      "n": 712
+      "agreement": 0.7559607293127629,
+      "n": 713
     },
     {
       "pair": "Long/Short × RSI",
@@ -105,13 +107,13 @@
     },
     {
       "pair": "CVD × Trend",
-      "agreement": 0.6741071428571429,
-      "n": 896
+      "agreement": 0.6744704570791528,
+      "n": 897
     },
     {
       "pair": "CVD × RSI",
-      "agreement": 0.5862913096695227,
-      "n": 817
+      "agreement": 0.58679706601467,
+      "n": 818
     },
     {
       "pair": "Fear & Greed × RSI",
@@ -120,13 +122,13 @@
     },
     {
       "pair": "CVD × Impuls-Erschöpfung",
-      "agreement": 0.509090909090909,
-      "n": 55
+      "agreement": 0.5,
+      "n": 56
     },
     {
       "pair": "Orderbook × RSI",
-      "agreement": 0.4481132075471698,
-      "n": 212
+      "agreement": 0.4507042253521127,
+      "n": 213
     }
   ],
   "sessionCal": [
@@ -151,14 +153,14 @@
     {
       "sess": "London",
       "label": "Orderbook",
-      "hitRate": 0.6976744186046512,
-      "n": 43
+      "hitRate": 0.6818181818181818,
+      "n": 44
     },
     {
       "sess": "London",
       "label": "RSI",
-      "hitRate": 0.625,
-      "n": 160
+      "hitRate": 0.6273291925465838,
+      "n": 161
     },
     {
       "sess": "Zwischen Sessions",
@@ -167,16 +169,16 @@
       "n": 111
     },
     {
+      "sess": "Asia",
+      "label": "Trend",
+      "hitRate": 0.5381679389312977,
+      "n": 262
+    },
+    {
       "sess": "London",
       "label": "Fear & Greed",
       "hitRate": 0.5315315315315315,
       "n": 111
-    },
-    {
-      "sess": "Asia",
-      "label": "Trend",
-      "hitRate": 0.5114503816793893,
-      "n": 262
     },
     {
       "sess": "London+NY",
@@ -193,17 +195,17 @@
     {
       "sess": "London",
       "label": "Trend",
-      "hitRate": 0.4906832298136646,
-      "n": 161
+      "hitRate": 0.49382716049382713,
+      "n": 162
     },
     {
-      "sess": "NY",
-      "label": "CVD",
-      "hitRate": 0.46445497630331756,
-      "n": 211
+      "sess": "Asia",
+      "label": "RSI",
+      "hitRate": 0.4933920704845815,
+      "n": 227
     }
   ],
-  "pulsePoints": 1125,
-  "activityPoints": 1052,
-  "outlierPoints": 1052
+  "pulsePoints": 1126,
+  "activityPoints": 1053,
+  "outlierPoints": 1053
 }
