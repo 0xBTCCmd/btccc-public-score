@@ -1,26 +1,26 @@
 {
-  "score": 77,
-  "confidence": 0.5,
+  "score": 63,
+  "confidence": 0.34,
   "regime": "Normal",
   "tregime": "Seitwärts",
   "calMults": {
-    "Trend": 0.96,
-    "RSI": 0.95,
-    "CVD": 0.65
+    "Trend": 0.97,
+    "CVD": 0.66,
+    "Orderbook": 1.09
   },
-  "dominance": 56.51418406961225,
-  "price": 64708,
-  "t": 1784505158,
+  "dominance": 56.52025327987559,
+  "price": 64576,
+  "t": 1784505758,
   "fv": 3,
   "rearview": {
-    "points": 1103,
+    "points": 1104,
     "rows": [
       {
         "type": "high",
         "hi": 60,
         "horizon": "4h",
-        "n": 400,
-        "avg": 0.0718620954615803
+        "n": 401,
+        "avg": 0.07134271158300808
       },
       {
         "type": "low",
@@ -33,8 +33,8 @@
         "type": "high",
         "hi": 60,
         "horizon": "24h",
-        "n": 379,
-        "avg": -0.1485091629225622
+        "n": 380,
+        "avg": -0.16314014853568
       },
       {
         "type": "low",
@@ -48,33 +48,33 @@
         "hi": 60,
         "horizon": "7d",
         "n": 75,
-        "avg": 0.36488068916651784
+        "avg": 0.27455581462140427
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "7d",
         "n": 236,
-        "avg": 2.931800231286244
+        "avg": 2.754087860040609
       }
     ],
     "confRows": [
       {
         "type": "low",
-        "hits": 276,
-        "n": 729
+        "hits": 266,
+        "n": 730
       }
     ]
   },
   "recentTrack": {
-    "n": 740,
-    "hits": 281,
-    "hitRate": 0.37972972972972974,
+    "n": 741,
+    "hits": 271,
+    "hitRate": 0.3657219973009447,
     "windowDays": 14
   },
   "stability": {
     "flips": 2,
-    "n": 26,
+    "n": 25,
     "windowHours": 4
   },
   "redundancy": [
@@ -105,8 +105,8 @@
     },
     {
       "pair": "CVD × Trend",
-      "agreement": 0.6681922196796338,
-      "n": 874
+      "agreement": 0.6685714285714286,
+      "n": 875
     },
     {
       "pair": "CVD × RSI",
@@ -131,12 +131,6 @@
   ],
   "sessionCal": [
     {
-      "sess": "Asia",
-      "label": "Impuls-Erschöpfung",
-      "hitRate": 1,
-      "n": 8
-    },
-    {
       "sess": "London+NY",
       "label": "Impuls-Erschöpfung",
       "hitRate": 0.875,
@@ -147,6 +141,12 @@
       "label": "Orderbook",
       "hitRate": 0.8571428571428571,
       "n": 35
+    },
+    {
+      "sess": "Asia",
+      "label": "Impuls-Erschöpfung",
+      "hitRate": 0.75,
+      "n": 8
     },
     {
       "sess": "Asia",
@@ -167,6 +167,12 @@
       "n": 111
     },
     {
+      "sess": "Asia",
+      "label": "Orderbook",
+      "hitRate": 0.569620253164557,
+      "n": 79
+    },
+    {
       "sess": "London",
       "label": "Fear & Greed",
       "hitRate": 0.5315315315315315,
@@ -185,25 +191,19 @@
       "n": 20
     },
     {
-      "sess": "Asia",
-      "label": "Orderbook",
-      "hitRate": 0.48717948717948717,
-      "n": 78
-    },
-    {
       "sess": "NY",
       "label": "CVD",
       "hitRate": 0.46445497630331756,
       "n": 211
     },
     {
-      "sess": "Asia",
-      "label": "RSI",
-      "hitRate": 0.45701357466063347,
-      "n": 221
+      "sess": "Zwischen Sessions",
+      "label": "CVD",
+      "hitRate": 0.45,
+      "n": 120
     }
   ],
-  "pulsePoints": 1103,
-  "activityPoints": 1030,
-  "outlierPoints": 1030
+  "pulsePoints": 1104,
+  "activityPoints": 1031,
+  "outlierPoints": 1031
 }
