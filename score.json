@@ -1,19 +1,18 @@
 {
-  "score": 51,
-  "confidence": 0.3,
+  "score": 57,
+  "confidence": 0.41,
   "regime": "Normal",
   "tregime": "Seitwärts",
   "calMults": {
-    "Trend": 1,
-    "CVD": 0.74,
-    "Orderbook": 1.12
+    "Trend": 0.96,
+    "CVD": 0.71
   },
-  "dominance": 56.535158235935945,
-  "price": 64556,
-  "t": 1784554144,
+  "dominance": 56.50912473412749,
+  "price": 64658,
+  "t": 1784554745,
   "fv": 4,
   "rearview": {
-    "points": 1185,
+    "points": 1186,
     "rows": [
       {
         "type": "high",
@@ -27,49 +26,49 @@
         "lo": 40,
         "horizon": "4h",
         "n": 380,
-        "avg": 0.09676238399061995
+        "avg": 0.0980164145287309
       },
       {
         "type": "high",
         "hi": 60,
         "horizon": "24h",
         "n": 425,
-        "avg": -0.19681209967955796
+        "avg": -0.19049447720315377
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "24h",
         "n": 360,
-        "avg": 1.278803292947688
+        "avg": 1.2801221049726788
       },
       {
         "type": "high",
         "hi": 60,
         "horizon": "7d",
-        "n": 157,
-        "avg": -0.001958040195661822
+        "n": 158,
+        "avg": 0.11164479336475512
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "7d",
         "n": 236,
-        "avg": 2.682974005462757
+        "avg": 2.7667756091669222
       }
     ],
     "confRows": [
       {
         "type": "low",
-        "hits": 287,
+        "hits": 297,
         "n": 775
       }
     ]
   },
   "recentTrack": {
     "n": 786,
-    "hits": 292,
-    "hitRate": 0.37150127226463103,
+    "hits": 302,
+    "hitRate": 0.3842239185750636,
     "windowDays": 14,
     "usingNewFormulaOnly": false,
     "nNew": 0,
@@ -108,8 +107,8 @@
     },
     {
       "pair": "CVD × Trend",
-      "agreement": 0.6706135629709364,
-      "n": 929
+      "agreement": 0.6698924731182796,
+      "n": 930
     },
     {
       "pair": "CVD × RSI",
@@ -170,6 +169,12 @@
       "n": 111
     },
     {
+      "sess": "NY",
+      "label": "CVD",
+      "hitRate": 0.5269709543568465,
+      "n": 241
+    },
+    {
       "sess": "London",
       "label": "RSI",
       "hitRate": 0.5212121212121212,
@@ -180,12 +185,6 @@
       "label": "Fear & Greed",
       "hitRate": 0.5068493150684932,
       "n": 73
-    },
-    {
-      "sess": "London+NY",
-      "label": "Orderbook",
-      "hitRate": 0.5,
-      "n": 40
     },
     {
       "sess": "Zwischen Sessions",
@@ -200,15 +199,15 @@
       "n": 82
     },
     {
-      "sess": "NY",
+      "sess": "London+NY",
       "label": "CVD",
-      "hitRate": 0.49583333333333335,
-      "n": 240
+      "hitRate": 0.47058823529411764,
+      "n": 153
     }
   ],
-  "pulsePoints": 1185,
-  "activityPoints": 1112,
-  "outlierPoints": 1112,
+  "pulsePoints": 1186,
+  "activityPoints": 1113,
+  "outlierPoints": 1113,
   "trendRegimeCal": [
     {
       "label": "Abwärtstrend",
@@ -218,22 +217,22 @@
     {
       "label": "Seitwärts",
       "n": 260,
-      "hitRate": 0.62
+      "hitRate": 0.63
     },
     {
       "label": "Aufwärtstrend",
       "n": 211,
-      "hitRate": 0.18
+      "hitRate": 0.23
     }
   ],
   "konfluenz": {
-    "points": 1112,
+    "points": 1113,
     "coins": [
       {
         "sym": "SOL",
         "confirmAvg": -0.37,
         "confirmN": 127,
-        "divergeAvg": 0.53,
+        "divergeAvg": 0.52,
         "divergeN": 25
       },
       {
@@ -274,7 +273,7 @@
     ]
   },
   "dominanceTrend": {
-    "current": 56.54,
+    "current": 56.51,
     "recentAvg": 56.48,
     "baseAvg": 56.27,
     "delta": 0.21
@@ -289,8 +288,8 @@
     {
       "dow": 1,
       "name": "Mo",
-      "n": 219,
-      "avgChg": -0.21
+      "n": 220,
+      "avgChg": -0.2
     },
     {
       "dow": 2,
@@ -374,7 +373,7 @@
       "title": "Puls stark bärisch (≤30)",
       "horizon": "7d",
       "n": 23,
-      "avgChg": 1.88,
+      "avgChg": 1.96,
       "hitRate": 0.09
     },
     {
@@ -388,19 +387,19 @@
       "title": "Puls stark bullisch (≥70)",
       "horizon": "24h",
       "n": 49,
-      "avgChg": -0.05,
-      "hitRate": 0.45
+      "avgChg": -0.02,
+      "hitRate": 0.53
     },
     {
       "title": "Puls stark bullisch (≥70)",
       "horizon": "7d",
       "n": 17,
-      "avgChg": -0.04,
-      "hitRate": 0.41
+      "avgChg": 0.09,
+      "hitRate": 0.47
     }
   ],
   "tfDivergence": {
-    "points": 2,
+    "points": 3,
     "rows": null
   },
   "fvg": {
@@ -428,8 +427,8 @@
   },
   "activityNow": {
     "label": "Normal",
-    "volRatio": 1.21,
-    "depthRatio": 1.15,
-    "baselineN": 730
+    "volRatio": 1.31,
+    "depthRatio": 0.93,
+    "baselineN": 731
   }
 }
