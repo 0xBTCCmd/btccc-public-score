@@ -1,61 +1,61 @@
 {
-  "score": 42,
-  "confidence": 0.4,
-  "regime": "Normal",
+  "score": 57,
+  "confidence": 0.38,
+  "regime": "Aktiv",
   "tregime": "Seitwärts",
   "calMults": {
     "RSI": 0.91,
-    "CVD": 0.66,
-    "Orderbook": 1.12
+    "CVD": 1.6,
+    "Orderbook": 0.5
   },
-  "dominance": 56.42137468725483,
-  "price": 64256,
-  "t": 1784533962,
-  "fv": 3,
+  "dominance": 56.43951314178477,
+  "price": 64251,
+  "t": 1784534375,
+  "fv": 4,
   "rearview": {
-    "points": 1151,
+    "points": 1152,
     "rows": [
       {
         "type": "high",
         "hi": 60,
         "horizon": "4h",
         "n": 440,
-        "avg": 0.01898289769389088
+        "avg": 0.01889514404408415
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "4h",
         "n": 360,
-        "avg": 0.06413428859306489
+        "avg": 0.0641127887650635
       },
       {
         "type": "high",
         "hi": 60,
         "horizon": "24h",
-        "n": 408,
-        "avg": -0.19953347268776894
+        "n": 409,
+        "avg": -0.2003260933751688
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "24h",
         "n": 357,
-        "avg": 1.283654585970382
+        "avg": 1.283589392698744
       },
       {
         "type": "high",
         "hi": 60,
         "horizon": "7d",
-        "n": 123,
-        "avg": -0.22179594660947155
+        "n": 124,
+        "avg": -0.23004347287096427
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "7d",
         "n": 236,
-        "avg": 2.39086448048228
+        "avg": 2.3855443868160346
       }
     ],
     "confRows": [
@@ -70,11 +70,14 @@
     "n": 771,
     "hits": 287,
     "hitRate": 0.3722438391699092,
-    "windowDays": 14
+    "windowDays": 14,
+    "usingNewFormulaOnly": false,
+    "nNew": 0,
+    "nOld": 771
   },
   "stability": {
-    "flips": 5,
-    "n": 24,
+    "flips": 6,
+    "n": 25,
     "windowHours": 4
   },
   "redundancy": [
@@ -110,8 +113,8 @@
     },
     {
       "pair": "CVD × RSI",
-      "agreement": 0.594047619047619,
-      "n": 840
+      "agreement": 0.5933412604042806,
+      "n": 841
     },
     {
       "pair": "Fear & Greed × RSI",
@@ -120,8 +123,8 @@
     },
     {
       "pair": "Orderbook × RSI",
-      "agreement": 0.4479638009049774,
-      "n": 221
+      "agreement": 0.44594594594594594,
+      "n": 222
     },
     {
       "pair": "CVD × Fear & Greed",
@@ -203,7 +206,7 @@
       "n": 262
     }
   ],
-  "pulsePoints": 1151,
-  "activityPoints": 1078,
-  "outlierPoints": 1078
+  "pulsePoints": 1152,
+  "activityPoints": 1079,
+  "outlierPoints": 1079
 }
