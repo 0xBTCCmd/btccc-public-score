@@ -1,26 +1,26 @@
 {
-  "score": 51,
-  "confidence": 0.31,
-  "regime": "Ruhig",
+  "score": 64,
+  "confidence": 0.33,
+  "regime": "Normal",
   "tregime": "Seitwärts",
   "calMults": {
-    "Trend": 1.06,
-    "CVD": 1,
-    "Orderbook": 0.98
+    "Trend": 1.04,
+    "RSI": 0.93,
+    "CVD": 0.79
   },
-  "dominance": 56.56938254891601,
-  "price": 65137,
-  "t": 1784588416,
+  "dominance": 56.570046259019776,
+  "price": 65204,
+  "t": 1784589016,
   "fv": 4,
   "rearview": {
-    "points": 1245,
+    "points": 1246,
     "rows": [
       {
         "type": "high",
         "hi": 60,
         "horizon": "4h",
-        "n": 454,
-        "avg": 0.021191114651692208
+        "n": 455,
+        "avg": 0.022200076824543995
       },
       {
         "type": "low",
@@ -33,29 +33,29 @@
         "type": "high",
         "hi": 60,
         "horizon": "24h",
-        "n": 466,
-        "avg": -0.09596005581281274
+        "n": 467,
+        "avg": -0.08633673074784412
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "24h",
         "n": 365,
-        "avg": 1.2872959094740402
+        "avg": 1.2878645729225768
       },
       {
         "type": "high",
         "hi": 60,
         "horizon": "7d",
-        "n": 214,
-        "avg": 0.5489832794398279
+        "n": 215,
+        "avg": 0.6290402128221155
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "7d",
         "n": 236,
-        "avg": 3.1705315690338227
+        "avg": 3.1977581222018068
       }
     ],
     "confRows": [
@@ -98,8 +98,8 @@
     },
     {
       "pair": "RSI × Trend",
-      "agreement": 0.7774936061381074,
-      "n": 782
+      "agreement": 0.7777777777777778,
+      "n": 783
     },
     {
       "pair": "Long/Short × RSI",
@@ -108,13 +108,13 @@
     },
     {
       "pair": "CVD × Trend",
-      "agreement": 0.6347914547304171,
-      "n": 983
+      "agreement": 0.6341463414634146,
+      "n": 984
     },
     {
       "pair": "CVD × RSI",
-      "agreement": 0.5641592920353983,
-      "n": 904
+      "agreement": 0.56353591160221,
+      "n": 905
     },
     {
       "pair": "Fear & Greed × RSI",
@@ -154,8 +154,8 @@
     {
       "sess": "Asia",
       "label": "Impuls-Erschöpfung",
-      "hitRate": 0.6956521739130435,
-      "n": 23
+      "hitRate": 0.7083333333333334,
+      "n": 24
     },
     {
       "sess": "Zwischen Sessions",
@@ -206,9 +206,9 @@
       "n": 102
     }
   ],
-  "pulsePoints": 1245,
-  "activityPoints": 1172,
-  "outlierPoints": 1172,
+  "pulsePoints": 1246,
+  "activityPoints": 1173,
+  "outlierPoints": 1173,
   "trendRegimeCal": [
     {
       "label": "Abwärtstrend",
@@ -227,7 +227,7 @@
     }
   ],
   "konfluenz": {
-    "points": 1172,
+    "points": 1173,
     "coins": [
       {
         "sym": "SOL",
@@ -252,15 +252,15 @@
       },
       {
         "sym": "AVAX",
-        "confirmAvg": -0.1,
-        "confirmN": 209,
+        "confirmAvg": -0.11,
+        "confirmN": 210,
         "divergeAvg": 0.38,
         "divergeN": 117
       },
       {
         "sym": "LINK",
-        "confirmAvg": 0.19,
-        "confirmN": 191,
+        "confirmAvg": 0.18,
+        "confirmN": 192,
         "divergeAvg": -0.22,
         "divergeN": 55
       },
@@ -289,8 +289,8 @@
     {
       "dow": 1,
       "name": "Mo",
-      "n": 280,
-      "avgChg": -0.1
+      "n": 281,
+      "avgChg": -0.09
     },
     {
       "dow": 2,
@@ -374,7 +374,7 @@
       "title": "Puls stark bärisch (≤30)",
       "horizon": "7d",
       "n": 29,
-      "avgChg": 2.49,
+      "avgChg": 2.55,
       "hitRate": 0.07
     },
     {
@@ -388,28 +388,28 @@
       "title": "Puls stark bullisch (≥70)",
       "horizon": "24h",
       "n": 52,
-      "avgChg": 0.11,
+      "avgChg": 0.12,
       "hitRate": 0.6
     },
     {
       "title": "Puls stark bullisch (≥70)",
       "horizon": "7d",
       "n": 17,
-      "avgChg": 0.7,
+      "avgChg": 0.78,
       "hitRate": 0.88
     }
   ],
   "tfDivergence": {
-    "points": 62,
+    "points": 63,
     "rows": null
   },
   "fvg": {
     "15m": {
       "n": 46,
-      "filledN": 42,
-      "fillRate": 0.91,
+      "filledN": 43,
+      "fillRate": 0.93,
       "medianCandles": 4,
-      "open": 4
+      "open": 3
     },
     "1h": {
       "n": 56,
@@ -427,9 +427,9 @@
     }
   },
   "activityNow": {
-    "label": "Ruhig",
-    "volRatio": 0.36,
-    "depthRatio": 0.96,
-    "baselineN": 790
+    "label": "Normal",
+    "volRatio": 0.39,
+    "depthRatio": 0.93,
+    "baselineN": 791
   }
 }
