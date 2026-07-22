@@ -1,17 +1,18 @@
 {
-  "score": 45,
-  "confidence": 0.69,
+  "score": 40,
+  "confidence": 0.6,
   "regime": "Normal",
   "tregime": "Seitwärts",
   "calMults": {
-    "CVD": 0.67
+    "CVD": 0.66,
+    "Orderbook": 0.93
   },
-  "dominance": 56.68717839155,
-  "price": 66016,
-  "t": 1784744435,
+  "dominance": 56.661045873464246,
+  "price": 65853,
+  "t": 1784745035,
   "fv": 4,
   "rearview": {
-    "points": 1505,
+    "points": 1506,
     "rows": [
       {
         "type": "high",
@@ -25,14 +26,14 @@
         "lo": 40,
         "horizon": "4h",
         "n": 417,
-        "avg": 0.10183045647839731
+        "avg": 0.09945150837486166
       },
       {
         "type": "high",
         "hi": 60,
         "horizon": "24h",
-        "n": 646,
-        "avg": 0.018147634387488835
+        "n": 647,
+        "avg": 0.002580116851662052
       },
       {
         "type": "low",
@@ -46,28 +47,28 @@
         "hi": 60,
         "horizon": "7d",
         "n": 241,
-        "avg": 1.8891034954231563
+        "avg": 1.8703084393893326
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "7d",
-        "n": 324,
-        "avg": 3.5787471938836153
+        "n": 325,
+        "avg": 3.5109235246463015
       }
     ],
     "confRows": [
       {
         "type": "low",
         "hits": 409,
-        "n": 1028
+        "n": 1029
       }
     ]
   },
   "recentTrack": {
-    "n": 197,
+    "n": 198,
     "hits": 74,
-    "hitRate": 0.3756345177664975,
+    "hitRate": 0.37373737373737376,
     "windowDays": 14,
     "usingNewFormulaOnly": true
   },
@@ -162,20 +163,20 @@
     {
       "sess": "Asia",
       "label": "Trend",
-      "hitRate": 0.5279329608938548,
-      "n": 358
-    },
-    {
-      "sess": "Asia",
-      "label": "RSI",
-      "hitRate": 0.47692307692307695,
-      "n": 325
+      "hitRate": 0.5264623955431755,
+      "n": 359
     },
     {
       "sess": "Asia",
       "label": "Orderbook",
       "hitRate": 0.47619047619047616,
       "n": 126
+    },
+    {
+      "sess": "Asia",
+      "label": "RSI",
+      "hitRate": 0.4754601226993865,
+      "n": 326
     },
     {
       "sess": "NY",
@@ -202,9 +203,9 @@
       "n": 261
     }
   ],
-  "pulsePoints": 1505,
-  "activityPoints": 1432,
-  "outlierPoints": 1432,
+  "pulsePoints": 1506,
+  "activityPoints": 1433,
+  "outlierPoints": 1433,
   "trendRegimeCal": [
     {
       "label": "Abwärtstrend",
@@ -218,12 +219,12 @@
     },
     {
       "label": "Aufwärtstrend",
-      "n": 353,
+      "n": 354,
       "hitRate": 0.22
     }
   ],
   "konfluenz": {
-    "points": 1432,
+    "points": 1433,
     "coins": [
       {
         "sym": "ETH",
@@ -270,10 +271,10 @@
     ]
   },
   "dominanceTrend": {
-    "current": 56.69,
+    "current": 56.66,
     "recentAvg": 56.76,
     "baseAvg": 56.35,
-    "delta": 0.41
+    "delta": 0.4
   },
   "weekday": [
     {
@@ -297,8 +298,8 @@
     {
       "dow": 3,
       "name": "Mi",
-      "n": 208,
-      "avgChg": -0.02
+      "n": 209,
+      "avgChg": -0.03
     },
     {
       "dow": 4,
@@ -386,7 +387,7 @@
       "title": "Puls stark bärisch (≤30)",
       "horizon": "4h",
       "n": 44,
-      "avgChg": 0.2,
+      "avgChg": 0.19,
       "hitRate": 0.3
     },
     {
@@ -400,7 +401,7 @@
       "title": "Puls stark bärisch (≤30)",
       "horizon": "7d",
       "n": 35,
-      "avgChg": 3.42,
+      "avgChg": 3.3,
       "hitRate": 0.06
     },
     {
@@ -414,31 +415,31 @@
       "title": "Puls stark bullisch (≥70)",
       "horizon": "24h",
       "n": 61,
-      "avgChg": 0.16,
+      "avgChg": 0.14,
       "hitRate": 0.56
     },
     {
       "title": "Puls stark bullisch (≥70)",
       "horizon": "7d",
-      "n": 36,
-      "avgChg": 2.31,
+      "n": 37,
+      "avgChg": 2.16,
       "hitRate": 0.97
     }
   ],
   "tfDivergence": {
-    "points": 322,
+    "points": 323,
     "rows": [
       {
         "label": "Divergent — folgt der Kurs dem größten TF?",
-        "n": 221,
+        "n": 222,
         "hitRate": 0.5
       }
     ]
   },
   "fvg": {
     "15m": {
-      "n": 112,
-      "filledN": 82,
+      "n": 113,
+      "filledN": 83,
       "fillRate": 0.73,
       "medianCandles": 3,
       "open": 30
@@ -460,8 +461,8 @@
   },
   "activityNow": {
     "label": "Normal",
-    "volRatio": 0.64,
-    "depthRatio": 1.06,
-    "baselineN": 1050
+    "volRatio": 0.67,
+    "depthRatio": 0.91,
+    "baselineN": 1051
   }
 }
