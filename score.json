@@ -1,18 +1,19 @@
 {
-  "score": 59,
-  "confidence": 0.4,
+  "score": 54,
+  "confidence": 0.31,
   "regime": "Normal",
   "tregime": "Seitwärts",
   "calMults": {
     "Trend": 1.11,
-    "CVD": 0.67
+    "CVD": 0.67,
+    "Orderbook": 0.93
   },
-  "dominance": 56.699386139142625,
-  "price": 66134,
-  "t": 1784742034,
+  "dominance": 56.705989832922135,
+  "price": 66138,
+  "t": 1784742634,
   "fv": 4,
   "rearview": {
-    "points": 1501,
+    "points": 1502,
     "rows": [
       {
         "type": "high",
@@ -25,15 +26,15 @@
         "type": "low",
         "lo": 40,
         "horizon": "4h",
-        "n": 415,
-        "avg": 0.10284824864123523
+        "n": 416,
+        "avg": 0.104011746046595
       },
       {
         "type": "high",
         "hi": 60,
         "horizon": "24h",
-        "n": 642,
-        "avg": 0.033071788116884306
+        "n": 643,
+        "avg": 0.03258112429208538
       },
       {
         "type": "low",
@@ -47,28 +48,28 @@
         "hi": 60,
         "horizon": "7d",
         "n": 241,
-        "avg": 1.9049544395718114
+        "avg": 1.9055177170148463
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "7d",
-        "n": 320,
-        "avg": 3.6189109084208964
+        "n": 321,
+        "avg": 3.623067985140487
       }
     ],
     "confRows": [
       {
         "type": "low",
         "hits": 409,
-        "n": 1024
+        "n": 1025
       }
     ]
   },
   "recentTrack": {
-    "n": 193,
+    "n": 194,
     "hits": 74,
-    "hitRate": 0.38341968911917096,
+    "hitRate": 0.38144329896907214,
     "windowDays": 14,
     "usingNewFormulaOnly": true
   },
@@ -105,8 +106,8 @@
     },
     {
       "pair": "CVD × Trend",
-      "agreement": 0.6567796610169492,
-      "n": 1180
+      "agreement": 0.6562235393734124,
+      "n": 1181
     },
     {
       "pair": "Fear & Greed × RSI",
@@ -163,14 +164,14 @@
     {
       "sess": "Asia",
       "label": "Trend",
-      "hitRate": 0.5338983050847458,
-      "n": 354
+      "hitRate": 0.532394366197183,
+      "n": 355
     },
     {
       "sess": "Asia",
       "label": "RSI",
-      "hitRate": 0.48286604361370716,
-      "n": 321
+      "hitRate": 0.4813664596273292,
+      "n": 322
     },
     {
       "sess": "Asia",
@@ -203,9 +204,9 @@
       "n": 261
     }
   ],
-  "pulsePoints": 1501,
-  "activityPoints": 1428,
-  "outlierPoints": 1428,
+  "pulsePoints": 1502,
+  "activityPoints": 1429,
+  "outlierPoints": 1429,
   "trendRegimeCal": [
     {
       "label": "Abwärtstrend",
@@ -219,31 +220,31 @@
     },
     {
       "label": "Aufwärtstrend",
-      "n": 349,
+      "n": 350,
       "hitRate": 0.22
     }
   ],
   "konfluenz": {
-    "points": 1428,
+    "points": 1429,
     "coins": [
       {
         "sym": "ETH",
-        "confirmAvg": 0.79,
-        "confirmN": 201,
+        "confirmAvg": 0.78,
+        "confirmN": 202,
         "divergeAvg": -0.34,
         "divergeN": 57
       },
       {
         "sym": "MATIC",
-        "confirmAvg": -0.37,
+        "confirmAvg": -0.38,
         "confirmN": 173,
         "divergeAvg": 0.54,
-        "divergeN": 373
+        "divergeN": 374
       },
       {
         "sym": "LINK",
         "confirmAvg": 0.26,
-        "confirmN": 253,
+        "confirmN": 254,
         "divergeAvg": -0.56,
         "divergeN": 84
       },
@@ -255,23 +256,23 @@
         "divergeN": 77
       },
       {
-        "sym": "ADA",
-        "confirmAvg": 0.33,
-        "confirmN": 335,
-        "divergeAvg": -0.25,
-        "divergeN": 78
-      },
-      {
         "sym": "XRP",
         "confirmAvg": 0.38,
         "confirmN": 166,
-        "divergeAvg": -0.17,
-        "divergeN": 87
+        "divergeAvg": -0.2,
+        "divergeN": 88
+      },
+      {
+        "sym": "ADA",
+        "confirmAvg": 0.32,
+        "confirmN": 335,
+        "divergeAvg": -0.25,
+        "divergeN": 78
       }
     ]
   },
   "dominanceTrend": {
-    "current": 56.7,
+    "current": 56.71,
     "recentAvg": 56.76,
     "baseAvg": 56.35,
     "delta": 0.41
@@ -298,7 +299,7 @@
     {
       "dow": 3,
       "name": "Mi",
-      "n": 203,
+      "n": 205,
       "avgChg": -0.01
     },
     {
@@ -422,17 +423,17 @@
       "title": "Puls stark bullisch (≥70)",
       "horizon": "7d",
       "n": 36,
-      "avgChg": 2.41,
+      "avgChg": 2.42,
       "hitRate": 0.97
     }
   ],
   "tfDivergence": {
-    "points": 318,
+    "points": 319,
     "rows": [
       {
         "label": "Divergent — folgt der Kurs dem größten TF?",
-        "n": 217,
-        "hitRate": 0.49
+        "n": 218,
+        "hitRate": 0.5
       }
     ]
   },
@@ -461,8 +462,8 @@
   },
   "activityNow": {
     "label": "Normal",
-    "volRatio": 0.93,
-    "depthRatio": 1.09,
-    "baselineN": 1046
+    "volRatio": 0.95,
+    "depthRatio": 1.08,
+    "baselineN": 1047
   }
 }
