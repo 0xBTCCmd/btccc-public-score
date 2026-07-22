@@ -1,18 +1,19 @@
 {
-  "score": 33,
-  "confidence": 0.52,
+  "score": 29,
+  "confidence": 0.51,
   "regime": "Aktiv",
   "tregime": "Aufwärtstrend",
   "calMults": {
     "RSI": 0.75,
-    "CVD": 1.48
+    "CVD": 1.48,
+    "Orderbook": 0.67
   },
-  "dominance": 56.74164863565593,
-  "price": 65880,
-  "t": 1784713231,
+  "dominance": 56.742283274427365,
+  "price": 65888,
+  "t": 1784713831,
   "fv": 4,
   "rearview": {
-    "points": 1453,
+    "points": 1454,
     "rows": [
       {
         "type": "high",
@@ -32,8 +33,8 @@
         "type": "high",
         "hi": 60,
         "horizon": "24h",
-        "n": 594,
-        "avg": 0.06804013207832998
+        "n": 595,
+        "avg": 0.06661755683026142
       },
       {
         "type": "low",
@@ -47,33 +48,33 @@
         "hi": 60,
         "horizon": "7d",
         "n": 241,
-        "avg": 1.8507409250574367
+        "avg": 1.8543172811558435
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "7d",
-        "n": 275,
-        "avg": 3.3655390937389487
+        "n": 276,
+        "avg": 3.3681476392948553
       }
     ],
     "confRows": [
       {
         "type": "low",
         "hits": 409,
-        "n": 976
+        "n": 977
       }
     ]
   },
   "recentTrack": {
-    "n": 145,
+    "n": 146,
     "hits": 74,
-    "hitRate": 0.5103448275862069,
+    "hitRate": 0.5068493150684932,
     "windowDays": 14,
     "usingNewFormulaOnly": true
   },
   "stability": {
-    "flips": 4,
+    "flips": 3,
     "n": 24,
     "windowHours": 4
   },
@@ -115,8 +116,8 @@
     },
     {
       "pair": "CVD × RSI",
-      "agreement": 0.5909510618651893,
-      "n": 1083
+      "agreement": 0.5913284132841329,
+      "n": 1084
     },
     {
       "pair": "CVD × Impuls-Erschöpfung",
@@ -175,8 +176,8 @@
     {
       "sess": "NY",
       "label": "RSI",
-      "hitRate": 0.5188679245283019,
-      "n": 212
+      "hitRate": 0.5164319248826291,
+      "n": 213
     },
     {
       "sess": "Asia",
@@ -193,8 +194,8 @@
     {
       "sess": "NY",
       "label": "Trend",
-      "hitRate": 0.46835443037974683,
-      "n": 237
+      "hitRate": 0.46638655462184875,
+      "n": 238
     },
     {
       "sess": "Zwischen Sessions",
@@ -203,9 +204,9 @@
       "n": 157
     }
   ],
-  "pulsePoints": 1453,
-  "activityPoints": 1380,
-  "outlierPoints": 1380,
+  "pulsePoints": 1454,
+  "activityPoints": 1381,
+  "outlierPoints": 1381,
   "trendRegimeCal": [
     {
       "label": "Abwärtstrend",
@@ -219,53 +220,53 @@
     },
     {
       "label": "Aufwärtstrend",
-      "n": 301,
-      "hitRate": 0.26
+      "n": 302,
+      "hitRate": 0.25
     }
   ],
   "konfluenz": {
-    "points": 1380,
+    "points": 1381,
     "coins": [
       {
         "sym": "ETH",
         "confirmAvg": 0.83,
         "confirmN": 191,
-        "divergeAvg": -0.29,
+        "divergeAvg": -0.33,
         "divergeN": 57
       },
       {
         "sym": "MATIC",
         "confirmAvg": -0.44,
         "confirmN": 162,
-        "divergeAvg": 0.57,
+        "divergeAvg": 0.56,
         "divergeN": 370
       },
       {
         "sym": "LINK",
         "confirmAvg": 0.27,
         "confirmN": 240,
-        "divergeAvg": -0.51,
+        "divergeAvg": -0.54,
         "divergeN": 84
       },
       {
         "sym": "BNB",
         "confirmAvg": 0.77,
         "confirmN": 56,
-        "divergeAvg": 0.05,
+        "divergeAvg": 0,
         "divergeN": 77
       },
       {
         "sym": "XRP",
-        "confirmAvg": 0.41,
+        "confirmAvg": 0.39,
         "confirmN": 166,
-        "divergeAvg": -0.29,
+        "divergeAvg": -0.31,
         "divergeN": 67
       },
       {
         "sym": "ADA",
         "confirmAvg": 0.32,
         "confirmN": 318,
-        "divergeAvg": -0.24,
+        "divergeAvg": -0.26,
         "divergeN": 78
       }
     ]
@@ -298,7 +299,7 @@
     {
       "dow": 3,
       "name": "Mi",
-      "n": 156,
+      "n": 157,
       "avgChg": -0.05
     },
     {
@@ -401,7 +402,7 @@
       "title": "Puls stark bärisch (≤30)",
       "horizon": "7d",
       "n": 35,
-      "avgChg": 3.32,
+      "avgChg": 3.33,
       "hitRate": 0.06
     },
     {
@@ -422,27 +423,27 @@
       "title": "Puls stark bullisch (≥70)",
       "horizon": "7d",
       "n": 29,
-      "avgChg": 2.32,
+      "avgChg": 2.33,
       "hitRate": 0.97
     }
   ],
   "tfDivergence": {
-    "points": 270,
+    "points": 271,
     "rows": [
       {
         "label": "Divergent — folgt der Kurs dem größten TF?",
-        "n": 169,
+        "n": 170,
         "hitRate": 0.35
       }
     ]
   },
   "fvg": {
     "15m": {
-      "n": 99,
+      "n": 100,
       "filledN": 73,
-      "fillRate": 0.74,
+      "fillRate": 0.73,
       "medianCandles": 4,
-      "open": 26
+      "open": 27
     },
     "1h": {
       "n": 72,
@@ -461,8 +462,8 @@
   },
   "activityNow": {
     "label": "Aktiv",
-    "volRatio": 2.13,
-    "depthRatio": 1.11,
-    "baselineN": 998
+    "volRatio": 2.23,
+    "depthRatio": 1.09,
+    "baselineN": 999
   }
 }
