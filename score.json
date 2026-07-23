@@ -1,18 +1,19 @@
 {
-  "score": 37,
-  "confidence": 0.56,
+  "score": 42,
+  "confidence": 0.42,
   "regime": "Normal",
   "tregime": "Seitwärts",
   "calMults": {
     "RSI": 0.97,
-    "CVD": 0.68
+    "CVD": 0.68,
+    "Orderbook": 0.99
   },
-  "dominance": 56.60766867432984,
-  "price": 65458,
-  "t": 1784793513,
+  "dominance": 56.61232622042983,
+  "price": 65518,
+  "t": 1784794113,
   "fv": 4,
   "rearview": {
-    "points": 1590,
+    "points": 1591,
     "rows": [
       {
         "type": "high",
@@ -25,8 +26,8 @@
         "type": "low",
         "lo": 40,
         "horizon": "4h",
-        "n": 456,
-        "avg": 0.07106124486307723
+        "n": 457,
+        "avg": 0.07185542833680024
       },
       {
         "type": "high",
@@ -39,22 +40,22 @@
         "type": "low",
         "lo": 40,
         "horizon": "24h",
-        "n": 415,
-        "avg": 1.2490729333443202
+        "n": 416,
+        "avg": 1.2502481969602306
       },
       {
         "type": "high",
         "hi": 60,
         "horizon": "7d",
-        "n": 243,
-        "avg": 1.849667717341873
+        "n": 244,
+        "avg": 1.8562442127704968
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "7d",
         "n": 354,
-        "avg": 3.3598753268819843
+        "avg": 3.3911570618727027
       }
     ],
     "confRows": [
@@ -153,8 +154,8 @@
     },
     {
       "pair": "CVD × RSI",
-      "agreement": 0.6087719298245614,
-      "n": 1140
+      "agreement": 0.6091148115687993,
+      "n": 1141
     },
     {
       "pair": "CVD × Impuls-Erschöpfung",
@@ -241,9 +242,9 @@
       "n": 144
     }
   ],
-  "pulsePoints": 1590,
-  "activityPoints": 1518,
-  "outlierPoints": 1516,
+  "pulsePoints": 1591,
+  "activityPoints": 1519,
+  "outlierPoints": 1517,
   "trendRegimeCal": [
     {
       "label": "Abwärtstrend",
@@ -262,7 +263,7 @@
     }
   ],
   "konfluenz": {
-    "points": 1516,
+    "points": 1517,
     "coins": [
       {
         "sym": "ETH",
@@ -342,8 +343,8 @@
     {
       "dow": 4,
       "name": "Do",
-      "n": 125,
-      "avgChg": -0.28
+      "n": 126,
+      "avgChg": -0.27
     },
     {
       "dow": 5,
@@ -421,11 +422,11 @@
     }
   ],
   "tfDivergence": {
-    "points": 407,
+    "points": 408,
     "rows": [
       {
         "label": "Divergent — folgt der Kurs dem größten TF?",
-        "n": 302,
+        "n": 303,
         "hitRate": 0.64
       }
     ]
@@ -433,39 +434,39 @@
   "fvg": {
     "15m": {
       "n": 128,
-      "filledN": 92,
-      "fillRate": 0.72,
+      "filledN": 93,
+      "fillRate": 0.73,
       "medianCandles": 3,
-      "open": 36
+      "open": 35
     },
     "1h": {
-      "n": 76,
+      "n": 77,
       "filledN": 59,
-      "fillRate": 0.78,
+      "fillRate": 0.77,
       "medianCandles": 2,
-      "open": 17
+      "open": 18
     },
     "4h": {
-      "n": 32,
+      "n": 33,
       "filledN": 29,
-      "fillRate": 0.91,
+      "fillRate": 0.88,
       "medianCandles": 3,
-      "open": 3
+      "open": 4
     }
   },
   "activityNow": {
     "label": "Normal",
-    "volRatio": 0.7,
-    "depthRatio": 1.03,
-    "baselineN": 1136
+    "volRatio": 0.56,
+    "depthRatio": 1.08,
+    "baselineN": 1137
   },
   "tfScores": {
-    "3m": 28,
-    "5m": 28,
-    "15m": 28,
-    "1h": 42,
-    "4h": 50,
-    "1d": 57
+    "3m": 31,
+    "5m": 23,
+    "15m": 23,
+    "1h": 37,
+    "4h": 45,
+    "1d": 52
   },
   "tfScoreHist": [
     {
@@ -533,13 +534,35 @@
         "4h": 50,
         "1d": 57
       }
+    },
+    {
+      "t": 1784793737,
+      "s": {
+        "3m": 23,
+        "5m": 23,
+        "15m": 23,
+        "1h": 37,
+        "4h": 45,
+        "1d": 52
+      }
+    },
+    {
+      "t": 1784794037,
+      "s": {
+        "3m": 31,
+        "5m": 23,
+        "15m": 23,
+        "1h": 37,
+        "4h": 45,
+        "1d": 52
+      }
     }
   ],
   "tfRadarAlert": {
     "active": false,
-    "shortAvg": 28,
-    "longAvg": 54,
-    "spread": -25,
+    "shortAvg": 26,
+    "longAvg": 49,
+    "spread": -23,
     "dir": "kurz bärischer"
   }
 }
