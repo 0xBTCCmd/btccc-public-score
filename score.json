@@ -1,25 +1,26 @@
 {
-  "score": 64,
-  "confidence": 0.55,
+  "score": 59,
+  "confidence": 0.4,
   "regime": "Normal",
   "tregime": "Seitwärts",
   "calMults": {
     "RSI": 1.03,
-    "CVD": 0.91
+    "CVD": 0.91,
+    "Orderbook": 1.11
   },
-  "dominance": 56.61393262112608,
-  "price": 64684,
-  "t": 1785319035,
+  "dominance": 56.65316246387578,
+  "price": 64649,
+  "t": 1785319636,
   "fv": 5,
   "rearview": {
-    "points": 2473,
+    "points": 2474,
     "rows": [
       {
         "type": "high",
         "hi": 60,
         "horizon": "4h",
-        "n": 852,
-        "avg": 0.06692765715642922
+        "n": 853,
+        "avg": 0.06691232999399656
       },
       {
         "type": "low",
@@ -40,21 +41,21 @@
         "lo": 40,
         "horizon": "24h",
         "n": 787,
-        "avg": 0.513755683852644
+        "avg": 0.5120729180173722
       },
       {
         "type": "high",
         "hi": 60,
         "horizon": "7d",
         "n": 677,
-        "avg": -0.38065783553340865
+        "avg": -0.3811264529438553
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "7d",
         "n": 562,
-        "avg": 1.6487704625886805
+        "avg": 1.6328721486843598
       }
     ],
     "confRows": [
@@ -118,13 +119,13 @@
   "redundancy": [
     {
       "pair": "Fear & Greed × Trend",
-      "agreement": 0.9811320754716981,
-      "n": 371
+      "agreement": 0.981081081081081,
+      "n": 370
     },
     {
       "pair": "RSI × Trend",
-      "agreement": 0.834733893557423,
-      "n": 1071
+      "agreement": 0.8345794392523365,
+      "n": 1070
     },
     {
       "pair": "Impuls-Erschöpfung × Long/Short",
@@ -133,13 +134,13 @@
     },
     {
       "pair": "Fear & Greed × RSI",
-      "agreement": 0.6989528795811518,
-      "n": 382
+      "agreement": 0.6981627296587927,
+      "n": 381
     },
     {
       "pair": "CVD × Trend",
-      "agreement": 0.6384096024006002,
-      "n": 1333
+      "agreement": 0.6381381381381381,
+      "n": 1332
     },
     {
       "pair": "CVD × RSI",
@@ -148,8 +149,8 @@
     },
     {
       "pair": "CVD × Orderbook",
-      "agreement": 0.6262626262626263,
-      "n": 594
+      "agreement": 0.6252100840336134,
+      "n": 595
     },
     {
       "pair": "CVD × Long/Short",
@@ -219,8 +220,8 @@
     {
       "sess": "NY",
       "label": "Long/Short",
-      "hitRate": 0.6,
-      "n": 160
+      "hitRate": 0.6024844720496895,
+      "n": 161
     },
     {
       "sess": "Zwischen Sessions",
@@ -237,13 +238,13 @@
     {
       "sess": "NY",
       "label": "CVD",
-      "hitRate": 0.5575757575757576,
-      "n": 495
+      "hitRate": 0.5564516129032258,
+      "n": 496
     }
   ],
-  "pulsePoints": 2473,
-  "activityPoints": 2401,
-  "outlierPoints": 2399,
+  "pulsePoints": 2474,
+  "activityPoints": 2402,
+  "outlierPoints": 2400,
   "trendRegimeCal": [
     {
       "label": "Abwärtstrend",
@@ -262,25 +263,25 @@
     }
   ],
   "konfluenz": {
-    "points": 2399,
+    "points": 2400,
     "coins": [
       {
         "sym": "ADA",
-        "confirmAvg": 0.4,
-        "confirmN": 508,
-        "divergeAvg": -0.41,
+        "confirmAvg": 0.41,
+        "confirmN": 509,
+        "divergeAvg": -0.42,
         "divergeN": 130
       },
       {
         "sym": "BNB",
-        "confirmAvg": 0.59,
+        "confirmAvg": 0.6,
         "confirmN": 104,
-        "divergeAvg": -0.15,
+        "divergeAvg": -0.16,
         "divergeN": 120
       },
       {
         "sym": "XRP",
-        "confirmAvg": 0.51,
+        "confirmAvg": 0.52,
         "confirmN": 293,
         "divergeAvg": -0.19,
         "divergeN": 116
@@ -295,21 +296,21 @@
       {
         "sym": "LINK",
         "confirmAvg": 0.21,
-        "confirmN": 452,
+        "confirmN": 453,
         "divergeAvg": -0.34,
         "divergeN": 127
       },
       {
         "sym": "DOGE",
-        "confirmAvg": 0.24,
-        "confirmN": 340,
+        "confirmAvg": 0.25,
+        "confirmN": 341,
         "divergeAvg": -0.28,
         "divergeN": 114
       }
     ]
   },
   "dominanceTrend": {
-    "current": 56.61,
+    "current": 56.65,
     "recentAvg": 56.43,
     "baseAvg": 56.45,
     "delta": -0.02
@@ -336,7 +337,7 @@
     {
       "dow": 3,
       "name": "Mi",
-      "n": 304,
+      "n": 305,
       "avgChg": 0.05
     },
     {
@@ -427,11 +428,11 @@
     }
   ],
   "tfDivergence": {
-    "points": 1290,
+    "points": 1291,
     "rows": [
       {
         "label": "Divergent — folgt der Kurs dem größten TF?",
-        "n": 1189,
+        "n": 1190,
         "hitRate": 0.74
       }
     ]
@@ -445,11 +446,11 @@
       "open": 110
     },
     "1h": {
-      "n": 130,
+      "n": 131,
       "filledN": 90,
       "fillRate": 0.69,
       "medianCandles": 2,
-      "open": 40
+      "open": 41
     },
     "4h": {
       "n": 50,
@@ -461,9 +462,9 @@
   },
   "activityNow": {
     "label": "Normal",
-    "volRatio": 1.1,
-    "depthRatio": 1.02,
-    "baselineN": 1727
+    "volRatio": 0.75,
+    "depthRatio": 1.21,
+    "baselineN": 1728
   },
   "tfScores": {
     "3m": 75,
@@ -476,32 +477,6 @@
     "1M": 25
   },
   "tfScoreHist": [
-    {
-      "t": 1785297527,
-      "s": {
-        "3m": 33,
-        "5m": 42,
-        "15m": 33,
-        "1h": 42,
-        "4h": 37,
-        "1d": 37,
-        "1w": 37,
-        "1M": 29
-      }
-    },
-    {
-      "t": 1785297827,
-      "s": {
-        "3m": 33,
-        "5m": 33,
-        "15m": 33,
-        "1h": 42,
-        "4h": 37,
-        "1d": 37,
-        "1w": 37,
-        "1M": 29
-      }
-    },
     {
       "t": 1785298127,
       "s": {
@@ -1401,6 +1376,32 @@
     },
     {
       "t": 1785318832,
+      "s": {
+        "3m": 75,
+        "5m": 75,
+        "15m": 75,
+        "1h": 64,
+        "4h": 55,
+        "1d": 55,
+        "1w": 36,
+        "1M": 25
+      }
+    },
+    {
+      "t": 1785319132,
+      "s": {
+        "3m": 75,
+        "5m": 60,
+        "15m": 60,
+        "1h": 64,
+        "4h": 55,
+        "1d": 55,
+        "1w": 36,
+        "1M": 25
+      }
+    },
+    {
+      "t": 1785319432,
       "s": {
         "3m": 75,
         "5m": 75,
