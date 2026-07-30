@@ -1,39 +1,38 @@
 {
-  "score": 51,
-  "confidence": 0.51,
+  "score": 57,
+  "confidence": 0.66,
   "regime": "Normal",
   "tregime": "Seitwärts",
   "calMults": {
-    "CVD": 0.92,
-    "Orderbook": 1.09
+    "CVD": 0.92
   },
-  "dominance": 56.54792030893802,
-  "price": 64140,
-  "t": 1785384444,
+  "dominance": 56.546966031766146,
+  "price": 64132,
+  "t": 1785385044,
   "fv": 5,
   "rearview": {
-    "points": 2582,
+    "points": 2583,
     "rows": [
       {
         "type": "high",
         "hi": 60,
         "horizon": "4h",
         "n": 883,
-        "avg": 0.050994057961259616
+        "avg": 0.05097991736309499
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "4h",
         "n": 801,
-        "avg": -0.005907683557091823
+        "avg": -0.0059547048490120715
       },
       {
         "type": "high",
         "hi": 60,
         "horizon": "24h",
-        "n": 894,
-        "avg": -0.09119883667704096
+        "n": 895,
+        "avg": -0.09234948105003815
       },
       {
         "type": "low",
@@ -47,28 +46,28 @@
         "hi": 60,
         "horizon": "7d",
         "n": 680,
-        "avg": -0.39840949013233773
+        "avg": -0.39846332348499613
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "7d",
-        "n": 622,
-        "avg": 1.2118824537789965
+        "n": 623,
+        "avg": 1.2066203788604433
       }
     ],
     "confRows": [
       {
         "type": "low",
         "hits": 779,
-        "n": 1681
+        "n": 1682
       }
     ]
   },
   "recentTrack": {
-    "n": 534,
+    "n": 535,
     "hits": 278,
-    "hitRate": 0.5205992509363296,
+    "hitRate": 0.5196261682242991,
     "windowDays": 14,
     "usingNewFormulaOnly": true
   },
@@ -83,10 +82,10 @@
       },
       {
         "windowHours": 4,
-        "flips": 2,
+        "flips": 1,
         "n": 24,
-        "flipsPerHour": 0.5,
-        "unstable": true
+        "flipsPerHour": 0.25,
+        "unstable": false
       },
       {
         "windowHours": 12,
@@ -103,17 +102,17 @@
         "unstable": false
       }
     ],
-    "anyUnstable": true,
+    "anyUnstable": false,
     "worst": {
-      "windowHours": 4,
-      "flips": 2,
-      "n": 24,
-      "flipsPerHour": 0.5,
-      "unstable": true
+      "windowHours": 12,
+      "flips": 5,
+      "n": 72,
+      "flipsPerHour": 0.4166666666666667,
+      "unstable": false
     },
-    "flips": 2,
-    "n": 24,
-    "windowHours": 4
+    "flips": 5,
+    "n": 72,
+    "windowHours": 12
   },
   "redundancy": [
     {
@@ -241,9 +240,9 @@
       "n": 518
     }
   ],
-  "pulsePoints": 2582,
-  "activityPoints": 2510,
-  "outlierPoints": 2508,
+  "pulsePoints": 2583,
+  "activityPoints": 2511,
+  "outlierPoints": 2509,
   "trendRegimeCal": [
     {
       "label": "Abwärtstrend",
@@ -262,13 +261,13 @@
     }
   ],
   "konfluenz": {
-    "points": 2508,
+    "points": 2509,
     "coins": [
       {
         "sym": "ADA",
         "confirmAvg": 0.39,
         "confirmN": 537,
-        "divergeAvg": -0.42,
+        "divergeAvg": -0.43,
         "divergeN": 141
       },
       {
@@ -289,7 +288,7 @@
         "sym": "BNB",
         "confirmAvg": 0.48,
         "confirmN": 110,
-        "divergeAvg": -0.12,
+        "divergeAvg": -0.13,
         "divergeN": 126
       },
       {
@@ -342,7 +341,7 @@
     {
       "dow": 4,
       "name": "Do",
-      "n": 248,
+      "n": 249,
       "avgChg": -0.19
     },
     {
@@ -363,7 +362,7 @@
       "key": "US10Y",
       "horizon": "7d",
       "n": 14,
-      "hitRate": 0.71
+      "hitRate": 0.64
     },
     {
       "key": "SILVER",
@@ -390,7 +389,7 @@
       "hitRate": 0.43
     },
     {
-      "key": "SILVER",
+      "key": "NDX",
       "horizon": "7d",
       "n": 14,
       "hitRate": 0.43
@@ -402,7 +401,7 @@
       "hitRate": 0.39
     },
     {
-      "key": "NDX",
+      "key": "SILVER",
       "horizon": "7d",
       "n": 14,
       "hitRate": 0.36
@@ -433,22 +432,22 @@
     }
   ],
   "tfDivergence": {
-    "points": 1399,
+    "points": 1400,
     "rows": [
       {
         "label": "Divergent — folgt der Kurs dem größten TF?",
-        "n": 1298,
+        "n": 1299,
         "hitRate": 0.72
       }
     ]
   },
   "fvg": {
     "15m": {
-      "n": 354,
+      "n": 355,
       "filledN": 242,
       "fillRate": 0.68,
       "medianCandles": 3,
-      "open": 112
+      "open": 113
     },
     "1h": {
       "n": 142,
@@ -467,47 +466,21 @@
   },
   "activityNow": {
     "label": "Normal",
-    "volRatio": 0.74,
-    "depthRatio": 1.14,
-    "baselineN": 1836
+    "volRatio": 0.83,
+    "depthRatio": 1.07,
+    "baselineN": 1837
   },
   "tfScores": {
-    "3m": 49,
-    "5m": 43,
-    "15m": 68,
-    "1h": 57,
-    "4h": 57,
-    "1d": 32,
-    "1w": 36,
-    "1M": 25
+    "3m": 31,
+    "5m": 31,
+    "15m": 63,
+    "1h": 51,
+    "4h": 51,
+    "1d": 27,
+    "1w": 31,
+    "1M": 20
   },
   "tfScoreHist": [
-    {
-      "t": 1785362943,
-      "s": {
-        "3m": 64,
-        "5m": 64,
-        "15m": 68,
-        "1h": 46,
-        "4h": 43,
-        "1d": 32,
-        "1w": 36,
-        "1M": 25
-      }
-    },
-    {
-      "t": 1785363243,
-      "s": {
-        "3m": 60,
-        "5m": 64,
-        "15m": 68,
-        "1h": 46,
-        "4h": 43,
-        "1d": 32,
-        "1w": 36,
-        "1M": 25
-      }
-    },
     {
       "t": 1785363543,
       "s": {
@@ -1417,13 +1390,39 @@
         "1w": 36,
         "1M": 25
       }
+    },
+    {
+      "t": 1785384549,
+      "s": {
+        "3m": 44,
+        "5m": 38,
+        "15m": 63,
+        "1h": 51,
+        "4h": 51,
+        "1d": 27,
+        "1w": 31,
+        "1M": 20
+      }
+    },
+    {
+      "t": 1785384849,
+      "s": {
+        "3m": 31,
+        "5m": 31,
+        "15m": 63,
+        "1h": 51,
+        "4h": 51,
+        "1d": 27,
+        "1w": 31,
+        "1M": 20
+      }
     }
   ],
   "tfRadarAlert": {
     "active": false,
-    "shortAvg": 53,
-    "longAvg": 38,
-    "spread": 16,
+    "shortAvg": 42,
+    "longAvg": 32,
+    "spread": 9,
     "dir": "kurz bullischer"
   }
 }
