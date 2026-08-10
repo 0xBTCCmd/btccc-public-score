@@ -1,20 +1,21 @@
 {
-  "score": 44,
-  "confidence": 0.24,
+  "score": 40,
+  "confidence": 0.2,
   "regime": "Normal",
   "tregime": "Seitwärts",
   "calMults": {
     "Trend": 1,
     "RSI": 1,
     "CVD": 1,
+    "Orderbook": 1,
     "Impuls-Erschöpfung": 1
   },
-  "dominance": 56.48095249218446,
-  "price": 63993,
-  "t": 1786398846,
+  "dominance": 56.47752843410515,
+  "price": 64011,
+  "t": 1786399447,
   "fv": 6,
   "rearview": {
-    "points": 4273,
+    "points": 4274,
     "rows": [
       {
         "type": "high",
@@ -35,21 +36,21 @@
         "hi": 60,
         "horizon": "24h",
         "n": 1668,
-        "avg": -0.1561241675355234
+        "avg": -0.156091025782755
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "24h",
-        "n": 1173,
-        "avg": 0.48822848789172013
+        "n": 1174,
+        "avg": 0.4869800134679433
       },
       {
         "type": "high",
         "hi": 60,
         "horizon": "7d",
-        "n": 1333,
-        "avg": -0.4246579871046203
+        "n": 1334,
+        "avg": -0.4207127584455413
       },
       {
         "type": "low",
@@ -63,14 +64,14 @@
         "hi": 60,
         "horizon": "30d",
         "n": 401,
-        "avg": -0.8034880337376957
+        "avg": -0.777630267128639
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "30d",
-        "n": 354,
-        "avg": 1.5536797717056345
+        "n": 355,
+        "avg": 1.5747178812399625
       }
     ],
     "confRows": [
@@ -139,13 +140,13 @@
     },
     {
       "pair": "RSI × Trend",
-      "agreement": 0.9007971656333038,
-      "n": 1129
+      "agreement": 0.9008849557522124,
+      "n": 1130
     },
     {
       "pair": "CVD × RSI",
-      "agreement": 0.6469760900140648,
-      "n": 1422
+      "agreement": 0.6465214335910049,
+      "n": 1423
     },
     {
       "pair": "Fear & Greed × RSI",
@@ -154,12 +155,12 @@
     },
     {
       "pair": "Orderbook × Trend",
-      "agreement": 0.5702702702702702,
-      "n": 370
+      "agreement": 0.5714285714285714,
+      "n": 371
     },
     {
       "pair": "CVD × Trend",
-      "agreement": 0.5578093306288032,
+      "agreement": 0.5571331981068289,
       "n": 1479
     },
     {
@@ -262,7 +263,7 @@
     "minTage": 10,
     "herausforderer": {
       "ohneDedup": {
-        "punkteMitProbe": 1084,
+        "punkteMitProbe": 1085,
         "abweichendePunkte": 4,
         "entscheidungstage": 1,
         "siege": 1,
@@ -272,7 +273,7 @@
         "stand": "1 von 10 Entscheidungstagen"
       },
       "ohneKalibrierung": {
-        "punkteMitProbe": 1084,
+        "punkteMitProbe": 1085,
         "abweichendePunkte": 0,
         "entscheidungstage": 0,
         "siege": 0,
@@ -283,9 +284,9 @@
       }
     }
   },
-  "pulsePoints": 4273,
-  "activityPoints": 4206,
-  "outlierPoints": 4199,
+  "pulsePoints": 4274,
+  "activityPoints": 4207,
+  "outlierPoints": 4200,
   "trendRegimeCal": [
     {
       "label": "Abwärtstrend",
@@ -304,7 +305,7 @@
     }
   ],
   "konfluenz": {
-    "points": 4199,
+    "points": 4200,
     "coins": [
       {
         "sym": "DOT",
@@ -366,7 +367,7 @@
     {
       "dow": 1,
       "name": "Mo",
-      "n": 707,
+      "n": 708,
       "avgChg": -0.15
     },
     {
@@ -411,12 +412,6 @@
       "key": "NDX",
       "horizon": "7d",
       "n": 26,
-      "hitRate": 0.62
-    },
-    {
-      "key": "US10Y",
-      "horizon": "7d",
-      "n": 26,
       "hitRate": 0.58
     },
     {
@@ -426,10 +421,16 @@
       "hitRate": 0.55
     },
     {
+      "key": "US10Y",
+      "horizon": "7d",
+      "n": 26,
+      "hitRate": 0.54
+    },
+    {
       "key": "SPX",
       "horizon": "7d",
       "n": 24,
-      "hitRate": 0.54
+      "hitRate": 0.5
     },
     {
       "key": "NDX",
@@ -457,12 +458,6 @@
     },
     {
       "key": "SILVER",
-      "horizon": "7d",
-      "n": 26,
-      "hitRate": 0.46
-    },
-    {
-      "key": "SILVER",
       "horizon": "4h",
       "n": 29,
       "hitRate": 0.45
@@ -480,6 +475,12 @@
       "hitRate": 0.43
     },
     {
+      "key": "SILVER",
+      "horizon": "7d",
+      "n": 26,
+      "hitRate": 0.42
+    },
+    {
       "key": "DXY",
       "horizon": "4h",
       "n": 15,
@@ -495,7 +496,7 @@
       "key": "GOLD",
       "horizon": "7d",
       "n": 26,
-      "hitRate": 0.31
+      "hitRate": 0.27
     },
     {
       "key": "GOLD",
@@ -511,7 +512,7 @@
     }
   ],
   "tfDivergence": {
-    "points": 1098,
+    "points": 1099,
     "rows": [
       {
         "label": "Divergent — folgt der Kurs dem größten TF?",
@@ -524,11 +525,11 @@
   },
   "fvg": {
     "15m": {
-      "n": 770,
+      "n": 771,
       "filledN": 530,
       "fillRate": 0.69,
       "medianCandles": 3,
-      "open": 240
+      "open": 241
     },
     "1h": {
       "n": 243,
@@ -547,9 +548,9 @@
   },
   "activityNow": {
     "label": "Normal",
-    "volRatio": 1.28,
-    "depthRatio": 0.91,
-    "baselineN": 2954,
+    "volRatio": 0.84,
+    "depthRatio": 1.06,
+    "baselineN": 2955,
     "vd": 2
   },
   "tfScores": {
@@ -563,34 +564,6 @@
     "1M": 31
   },
   "tfScoreHist": [
-    {
-      "t": 1786377403,
-      "s": {
-        "3m": 44,
-        "5m": 44,
-        "15m": 58,
-        "1h": 44,
-        "4h": 31,
-        "1d": 38,
-        "1w": 42,
-        "1M": 31
-      },
-      "q": "dienst"
-    },
-    {
-      "t": 1786377704,
-      "s": {
-        "3m": 31,
-        "5m": 31,
-        "15m": 58,
-        "1h": 44,
-        "4h": 42,
-        "1d": 38,
-        "1w": 42,
-        "1M": 31
-      },
-      "q": "dienst"
-    },
     {
       "t": 1786378004,
       "s": {
@@ -1559,6 +1532,34 @@
     },
     {
       "t": 1786398709,
+      "s": {
+        "3m": 44,
+        "5m": 44,
+        "15m": 44,
+        "1h": 44,
+        "4h": 31,
+        "1d": 38,
+        "1w": 42,
+        "1M": 31
+      },
+      "q": "dienst"
+    },
+    {
+      "t": 1786399009,
+      "s": {
+        "3m": 31,
+        "5m": 44,
+        "15m": 44,
+        "1h": 44,
+        "4h": 31,
+        "1d": 38,
+        "1w": 42,
+        "1M": 31
+      },
+      "q": "dienst"
+    },
+    {
+      "t": 1786399309,
       "s": {
         "3m": 44,
         "5m": 44,
