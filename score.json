@@ -1,20 +1,21 @@
 {
-  "score": 36,
-  "confidence": 0.27,
+  "score": 31,
+  "confidence": 0.24,
   "regime": "Normal",
   "tregime": "Seitwärts",
   "calMults": {
     "Trend": 1,
     "RSI": 1,
     "CVD": 1,
-    "Long/Short": 1
+    "Long/Short": 1,
+    "Orderbook": 1
   },
-  "dominance": 56.49731928767323,
-  "price": 63993,
-  "t": 1786408447,
+  "dominance": 56.49782838190064,
+  "price": 63968,
+  "t": 1786409048,
   "fv": 6,
   "rearview": {
-    "points": 4289,
+    "points": 4290,
     "rows": [
       {
         "type": "high",
@@ -34,22 +35,22 @@
         "type": "high",
         "hi": 60,
         "horizon": "24h",
-        "n": 1672,
-        "avg": -0.16017028774631745
+        "n": 1673,
+        "avg": -0.16133659728884414
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "24h",
         "n": 1175,
-        "avg": 0.48459093159619077
+        "avg": 0.48423074797033755
       },
       {
         "type": "high",
         "hi": 60,
         "horizon": "7d",
-        "n": 1349,
-        "avg": -0.43157508179643844
+        "n": 1350,
+        "avg": -0.4380272351690108
       },
       {
         "type": "low",
@@ -63,14 +64,14 @@
         "hi": 60,
         "horizon": "30d",
         "n": 408,
-        "avg": -0.806097681210773
+        "avg": -0.8419635415216947
       },
       {
         "type": "low",
         "lo": 40,
         "horizon": "30d",
         "n": 356,
-        "avg": 1.540367170095389
+        "avg": 1.502347241442234
       }
     ],
     "confRows": [
@@ -139,7 +140,7 @@
     },
     {
       "pair": "RSI × Trend",
-      "agreement": 0.9070796460176991,
+      "agreement": 0.9079646017699115,
       "n": 1130
     },
     {
@@ -154,8 +155,8 @@
     },
     {
       "pair": "Orderbook × Trend",
-      "agreement": 0.5706521739130435,
-      "n": 368
+      "agreement": 0.5718157181571816,
+      "n": 369
     },
     {
       "pair": "Fear & Greed × Trend",
@@ -164,7 +165,7 @@
     },
     {
       "pair": "CVD × Trend",
-      "agreement": 0.5469912102772143,
+      "agreement": 0.54631507775524,
       "n": 1479
     },
     {
@@ -174,13 +175,13 @@
     },
     {
       "pair": "CVD × Long/Short",
-      "agreement": 0.5194610778443114,
+      "agreement": 0.5209580838323353,
       "n": 668
     },
     {
       "pair": "Impuls-Erschöpfung × Long/Short",
-      "agreement": 0.5113636363636364,
-      "n": 88
+      "agreement": 0.5057471264367817,
+      "n": 87
     }
   ],
   "sessionCal": [
@@ -262,7 +263,7 @@
     "minTage": 10,
     "herausforderer": {
       "ohneDedup": {
-        "punkteMitProbe": 1100,
+        "punkteMitProbe": 1101,
         "abweichendePunkte": 4,
         "entscheidungstage": 1,
         "siege": 1,
@@ -272,7 +273,7 @@
         "stand": "1 von 10 Entscheidungstagen"
       },
       "ohneKalibrierung": {
-        "punkteMitProbe": 1100,
+        "punkteMitProbe": 1101,
         "abweichendePunkte": 0,
         "entscheidungstage": 0,
         "siege": 0,
@@ -283,9 +284,9 @@
       }
     }
   },
-  "pulsePoints": 4289,
-  "activityPoints": 4222,
-  "outlierPoints": 4215,
+  "pulsePoints": 4290,
+  "activityPoints": 4223,
+  "outlierPoints": 4216,
   "trendRegimeCal": [
     {
       "label": "Abwärtstrend",
@@ -304,12 +305,12 @@
     }
   ],
   "konfluenz": {
-    "points": 4215,
+    "points": 4216,
     "coins": [
       {
         "sym": "DOT",
-        "confirmAvg": 0.11,
-        "confirmN": 600,
+        "confirmAvg": 0.1,
+        "confirmN": 601,
         "divergeAvg": -0.37,
         "divergeN": 414
       },
@@ -337,14 +338,14 @@
       {
         "sym": "XRP",
         "confirmAvg": 0.07,
-        "confirmN": 528,
+        "confirmN": 529,
         "divergeAvg": -0.14,
         "divergeN": 171
       },
       {
         "sym": "ADA",
-        "confirmAvg": 0.1,
-        "confirmN": 811,
+        "confirmAvg": 0.09,
+        "confirmN": 812,
         "divergeAvg": -0.07,
         "divergeN": 391
       }
@@ -366,7 +367,7 @@
     {
       "dow": 1,
       "name": "Mo",
-      "n": 723,
+      "n": 724,
       "avgChg": -0.15
     },
     {
@@ -501,7 +502,7 @@
       "key": "GOLD",
       "horizon": "30d",
       "n": 15,
-      "hitRate": 0.27
+      "hitRate": 0.2
     },
     {
       "key": "SILVER",
@@ -511,7 +512,7 @@
     }
   ],
   "tfDivergence": {
-    "points": 1114,
+    "points": 1115,
     "rows": [
       {
         "label": "Divergent — folgt der Kurs dem größten TF?",
@@ -548,13 +549,13 @@
   "activityNow": {
     "label": "Normal",
     "volRatio": 0.45,
-    "depthRatio": 1.12,
-    "baselineN": 2970,
+    "depthRatio": 1.42,
+    "baselineN": 2971,
     "vd": 2
   },
   "tfScores": {
-    "3m": 67,
-    "5m": 58,
+    "3m": 58,
+    "5m": 44,
     "15m": 36,
     "1h": 36,
     "4h": 28,
@@ -563,34 +564,6 @@
     "1M": 28
   },
   "tfScoreHist": [
-    {
-      "t": 1786387005,
-      "s": {
-        "3m": 44,
-        "5m": 44,
-        "15m": 58,
-        "1h": 44,
-        "4h": 31,
-        "1d": 38,
-        "1w": 42,
-        "1M": 31
-      },
-      "q": "dienst"
-    },
-    {
-      "t": 1786387309,
-      "s": {
-        "3m": 44,
-        "5m": 44,
-        "15m": 58,
-        "1h": 44,
-        "4h": 31,
-        "1d": 38,
-        "1w": 42,
-        "1M": 31
-      },
-      "q": "dienst"
-    },
     {
       "t": 1786387606,
       "s": {
@@ -1570,14 +1543,42 @@
         "1M": 28
       },
       "q": "dienst"
+    },
+    {
+      "t": 1786408611,
+      "s": {
+        "3m": 67,
+        "5m": 58,
+        "15m": 36,
+        "1h": 36,
+        "4h": 28,
+        "1d": 44,
+        "1w": 40,
+        "1M": 28
+      },
+      "q": "dienst"
+    },
+    {
+      "t": 1786408912,
+      "s": {
+        "3m": 58,
+        "5m": 44,
+        "15m": 36,
+        "1h": 36,
+        "4h": 28,
+        "1d": 44,
+        "1w": 40,
+        "1M": 28
+      },
+      "q": "dienst"
     }
   ],
   "tfScoresQuelle": "dienst",
   "tfRadarAlert": {
     "active": false,
-    "shortAvg": 54,
+    "shortAvg": 46,
     "longAvg": 35,
-    "spread": 19,
+    "spread": 11,
     "dir": "kurz bullischer"
   }
 }
