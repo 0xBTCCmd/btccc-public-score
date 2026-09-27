@@ -1,22 +1,20 @@
 {
-  "score": 75,
-  "confidence": 0.35,
+  "score": 38,
+  "confidence": 0.37,
   "regime": "Normal",
   "tregime": "Seitwärts",
   "calMults": {
     "Trend": 1,
-    "RSI": 1,
     "CVD": 1,
-    "Orderbook": 1,
     "Impuls-Erschöpfung": 1
   },
-  "dominance": 58.86891580567462,
-  "price": 84708,
-  "t": 1790519976,
+  "dominance": 58.88057918647589,
+  "price": 84526,
+  "t": 1790520577,
   "fv": 6,
   "rearview": {
     "rvv": 2,
-    "points": 11143,
+    "points": 11144,
     "tage": 80,
     "rows": [
       {
@@ -225,51 +223,51 @@
     ],
     "tfAktuell": {
       "3m": {
-        "score": 26,
+        "score": 18,
         "typ": "low",
-        "t": 1790519974
+        "t": 1790520575
       },
       "5m": {
-        "score": 38,
+        "score": 30,
         "typ": "low",
-        "t": 1790519974
+        "t": 1790520575
       },
       "15m": {
-        "score": 58,
+        "score": 53,
         "typ": "mitte",
-        "t": 1790519974
+        "t": 1790520575
       },
       "1h": {
-        "score": 75,
+        "score": 73,
         "typ": "high",
-        "t": 1790519974
+        "t": 1790520575
       },
       "4h": {
-        "score": 62,
-        "typ": "high",
-        "t": 1790519974
+        "score": 58,
+        "typ": "mitte",
+        "t": 1790520575
       },
       "1d": {
-        "score": 62,
-        "typ": "high",
-        "t": 1790519974
+        "score": 58,
+        "typ": "mitte",
+        "t": 1790520575
       },
       "1w": {
-        "score": 62,
-        "typ": "high",
-        "t": 1790519974
+        "score": 58,
+        "typ": "mitte",
+        "t": 1790520575
       },
       "1M": {
-        "score": 55,
+        "score": 50,
         "typ": "mitte",
-        "t": 1790519974
+        "t": 1790520575
       }
     }
   },
   "recentTrack": {
-    "n": 1151,
-    "hits": 531,
-    "hitRate": 0.4613379669852302,
+    "n": 1150,
+    "hits": 530,
+    "hitRate": 0.4608695652173913,
     "windowDays": 14,
     "usingNewFormulaOnly": true
   },
@@ -277,44 +275,44 @@
     "windows": [
       {
         "windowHours": 1,
-        "flips": 0,
+        "flips": 1,
         "n": 6,
-        "flipsPerHour": 0,
-        "unstable": false
+        "flipsPerHour": 1,
+        "unstable": true
       },
       {
         "windowHours": 4,
-        "flips": 0,
+        "flips": 1,
         "n": 24,
-        "flipsPerHour": 0,
+        "flipsPerHour": 0.25,
         "unstable": false
       },
       {
         "windowHours": 12,
-        "flips": 0,
+        "flips": 1,
         "n": 72,
-        "flipsPerHour": 0,
+        "flipsPerHour": 0.08333333333333333,
         "unstable": false
       },
       {
         "windowHours": 24,
-        "flips": 7,
+        "flips": 8,
         "n": 144,
-        "flipsPerHour": 0.2916666666666667,
+        "flipsPerHour": 0.3333333333333333,
         "unstable": false
       }
     ],
-    "anyUnstable": false,
+    "anyUnstable": true,
     "worst": {
-      "windowHours": 24,
-      "flips": 7,
-      "n": 144,
-      "flipsPerHour": 0.2916666666666667,
-      "unstable": false
+      "windowHours": 1,
+      "flips": 1,
+      "n": 6,
+      "flipsPerHour": 1,
+      "unstable": true
     },
-    "flips": 7,
-    "n": 144,
-    "windowHours": 24
+    "flips": 1,
+    "n": 6,
+    "windowHours": 1
   },
   "redundancy": [
     {
@@ -343,14 +341,14 @@
       "n": 1263
     },
     {
+      "pair": "Impuls-Erschöpfung × Long/Short",
+      "agreement": 0.5714285714285714,
+      "n": 35
+    },
+    {
       "pair": "CVD × RSI",
       "agreement": 0.5572269457161544,
       "n": 1529
-    },
-    {
-      "pair": "Impuls-Erschöpfung × Long/Short",
-      "agreement": 0.5555555555555556,
-      "n": 36
     },
     {
       "pair": "Orderbook × RSI",
@@ -468,9 +466,9 @@
       }
     }
   },
-  "pulsePoints": 11143,
-  "activityPoints": 11022,
-  "outlierPoints": 11022,
+  "pulsePoints": 11144,
+  "activityPoints": 11023,
+  "outlierPoints": 11023,
   "datenbasisSeit": 1783720226,
   "langzeitT": 1790467871,
   "trendRegimeCal": [
@@ -491,7 +489,7 @@
     }
   ],
   "konfluenz": {
-    "points": 11022,
+    "points": 11023,
     "coins": [
       {
         "sym": "MATIC",
@@ -538,8 +536,8 @@
     ]
   },
   "dominanceTrend": {
-    "current": 58.87,
-    "recentAvg": 58.39,
+    "current": 58.88,
+    "recentAvg": 58.4,
     "baseAvg": 57.91,
     "delta": 0.49
   },
@@ -716,11 +714,11 @@
   },
   "fvg": {
     "15m": {
-      "n": 2267,
-      "filledN": 1502,
+      "n": 2266,
+      "filledN": 1503,
       "fillRate": 0.66,
       "medianCandles": 3,
-      "open": 765
+      "open": 763
     },
     "1h": {
       "n": 576,
@@ -731,58 +729,30 @@
     },
     "4h": {
       "n": 158,
-      "filledN": 62,
-      "fillRate": 0.39,
-      "medianCandles": 3,
-      "open": 96
+      "filledN": 63,
+      "fillRate": 0.4,
+      "medianCandles": 2,
+      "open": 95
     }
   },
   "activityNow": {
     "label": "Normal",
     "volRatio": 1.26,
     "depthRatio": 0.79,
-    "baselineN": 2538,
+    "baselineN": 2539,
     "vd": 2
   },
   "tfScores": {
-    "3m": 26,
-    "5m": 38,
-    "15m": 58,
-    "1h": 75,
-    "4h": 62,
-    "1d": 62,
-    "1w": 62,
-    "1M": 55
+    "3m": 18,
+    "5m": 30,
+    "15m": 53,
+    "1h": 73,
+    "4h": 58,
+    "1d": 58,
+    "1w": 58,
+    "1M": 50
   },
   "tfScoreHist": [
-    {
-      "t": 1790498478,
-      "s": {
-        "3m": 53,
-        "5m": 73,
-        "15m": 73,
-        "1h": 58,
-        "4h": 58,
-        "1d": 58,
-        "1w": 58,
-        "1M": 50
-      },
-      "q": "dienst"
-    },
-    {
-      "t": 1790498777,
-      "s": {
-        "3m": 70,
-        "5m": 78,
-        "15m": 78,
-        "1h": 63,
-        "4h": 63,
-        "1d": 63,
-        "1w": 63,
-        "1M": 55
-      },
-      "q": "dienst"
-    },
     {
       "t": 1790499077,
       "s": {
@@ -1762,14 +1732,42 @@
         "1M": 55
       },
       "q": "dienst"
+    },
+    {
+      "t": 1790520085,
+      "s": {
+        "3m": 18,
+        "5m": 30,
+        "15m": 53,
+        "1h": 73,
+        "4h": 58,
+        "1d": 58,
+        "1w": 58,
+        "1M": 50
+      },
+      "q": "dienst"
+    },
+    {
+      "t": 1790520383,
+      "s": {
+        "3m": 18,
+        "5m": 30,
+        "15m": 53,
+        "1h": 73,
+        "4h": 58,
+        "1d": 58,
+        "1w": 58,
+        "1M": 50
+      },
+      "q": "dienst"
     }
   ],
   "tfScoresQuelle": "dienst",
   "tfRadarAlert": {
     "active": false,
-    "shortAvg": 41,
-    "longAvg": 60,
-    "spread": -20,
+    "shortAvg": 34,
+    "longAvg": 56,
+    "spread": -22,
     "dir": "kurz bärischer"
   }
 }
