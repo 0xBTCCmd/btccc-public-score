@@ -1,21 +1,22 @@
 {
-  "score": 72,
-  "confidence": 0.5,
+  "score": 67,
+  "confidence": 0.33,
   "regime": "Normal",
   "tregime": "Seitwärts",
   "calMults": {
     "RSI": 1,
     "CVD": 1,
     "Fear & Greed": 1,
-    "Long/Short": 1
+    "Long/Short": 1,
+    "Orderbook": 1
   },
-  "dominance": 58.73721359743427,
-  "price": 60744,
-  "t": 1795374507,
+  "dominance": 58.73199083230251,
+  "price": 60741,
+  "t": 1795375108,
   "fv": 6,
   "rearview": {
     "rvv": 2,
-    "points": 18798,
+    "points": 18799,
     "tage": 134,
     "rows": [
       {
@@ -254,42 +255,42 @@
       "3m": {
         "score": 40,
         "typ": "low",
-        "t": 1795374505
+        "t": 1795375106
       },
       "5m": {
         "score": 53,
         "typ": "mitte",
-        "t": 1795374505
+        "t": 1795375106
       },
       "15m": {
         "score": 53,
         "typ": "mitte",
-        "t": 1795374505
+        "t": 1795375106
       },
       "1h": {
         "score": 72,
         "typ": "high",
-        "t": 1795374505
+        "t": 1795375106
       },
       "4h": {
         "score": 53,
         "typ": "mitte",
-        "t": 1795374505
+        "t": 1795375106
       },
       "1d": {
         "score": 48,
         "typ": "mitte",
-        "t": 1795374505
+        "t": 1795375106
       },
       "1w": {
         "score": 33,
         "typ": "low",
-        "t": 1795374505
+        "t": 1795375106
       },
       "1M": {
         "score": 33,
         "typ": "low",
-        "t": 1795374505
+        "t": 1795375106
       }
     }
   },
@@ -347,7 +348,7 @@
     {
       "pair": "Fear & Greed × Long/Short",
       "agreement": 1,
-      "n": 1411
+      "n": 1412
     },
     {
       "pair": "Fear & Greed × Impuls-Erschöpfung",
@@ -371,23 +372,23 @@
     },
     {
       "pair": "CVD × Trend",
-      "agreement": 0.6161290322580645,
-      "n": 1550
+      "agreement": 0.6165267914783732,
+      "n": 1549
     },
     {
       "pair": "Orderbook × RSI",
-      "agreement": 0.6081370449678801,
-      "n": 467
+      "agreement": 0.6068376068376068,
+      "n": 468
+    },
+    {
+      "pair": "CVD × RSI",
+      "agreement": 0.4842259721203228,
+      "n": 1363
     },
     {
       "pair": "Impuls-Erschöpfung × RSI",
       "agreement": 0.48411214953271026,
       "n": 535
-    },
-    {
-      "pair": "CVD × RSI",
-      "agreement": 0.48384728340675476,
-      "n": 1362
     },
     {
       "pair": "CVD × Long/Short",
@@ -495,9 +496,9 @@
       }
     }
   },
-  "pulsePoints": 18798,
-  "activityPoints": 18676,
-  "outlierPoints": 18677,
+  "pulsePoints": 18799,
+  "activityPoints": 18677,
+  "outlierPoints": 18678,
   "datenbasisSeit": 1783720226,
   "langzeitT": 1795306329,
   "trendRegimeCal": [
@@ -518,7 +519,7 @@
     }
   ],
   "konfluenz": {
-    "points": 18677,
+    "points": 18678,
     "coins": [
       {
         "sym": "AVAX",
@@ -565,10 +566,10 @@
     ]
   },
   "dominanceTrend": {
-    "current": 58.74,
-    "recentAvg": 58.16,
+    "current": 58.73,
+    "recentAvg": 58.17,
     "baseAvg": 59.11,
-    "delta": -0.95
+    "delta": -0.94
   },
   "weekday": [
     {
@@ -772,8 +773,8 @@
   "activityNow": {
     "label": "Normal",
     "volRatio": 1.95,
-    "depthRatio": 0.85,
-    "baselineN": 2672,
+    "depthRatio": 0.86,
+    "baselineN": 2673,
     "vd": 2
   },
   "tfScores": {
@@ -787,34 +788,6 @@
     "1M": 33
   },
   "tfScoreHist": [
-    {
-      "t": 1795353052,
-      "s": {
-        "3m": 64,
-        "5m": 64,
-        "15m": 86,
-        "1h": 72,
-        "4h": 53,
-        "1d": 48,
-        "1w": 33,
-        "1M": 33
-      },
-      "q": "dienst"
-    },
-    {
-      "t": 1795353354,
-      "s": {
-        "3m": 53,
-        "5m": 64,
-        "15m": 86,
-        "1h": 72,
-        "4h": 53,
-        "1d": 48,
-        "1w": 33,
-        "1M": 33
-      },
-      "q": "dienst"
-    },
     {
       "t": 1795353659,
       "s": {
@@ -1783,6 +1756,34 @@
     },
     {
       "t": 1795374359,
+      "s": {
+        "3m": 40,
+        "5m": 53,
+        "15m": 53,
+        "1h": 72,
+        "4h": 53,
+        "1d": 48,
+        "1w": 33,
+        "1M": 33
+      },
+      "q": "dienst"
+    },
+    {
+      "t": 1795374660,
+      "s": {
+        "3m": 33,
+        "5m": 45,
+        "15m": 53,
+        "1h": 72,
+        "4h": 53,
+        "1d": 48,
+        "1w": 33,
+        "1M": 33
+      },
+      "q": "dienst"
+    },
+    {
+      "t": 1795374959,
       "s": {
         "3m": 40,
         "5m": 53,
