@@ -1,6 +1,6 @@
 {
-  "score": 46,
-  "confidence": 0.2,
+  "score": 42,
+  "confidence": 0.16,
   "regime": "Normal",
   "tregime": "Abwärtstrend",
   "calMults": {
@@ -8,15 +8,16 @@
     "CVD": 1,
     "Fear & Greed": 1,
     "Long/Short": 1,
+    "Orderbook": 1,
     "Impuls-Erschöpfung": 1
   },
-  "dominance": 57.78805880914491,
-  "price": 59561,
-  "t": 1795315700,
+  "dominance": 57.77100773991849,
+  "price": 59447,
+  "t": 1795316300,
   "fv": 6,
   "rearview": {
     "rvv": 2,
-    "points": 18700,
+    "points": 18701,
     "tage": 134,
     "rows": [
       {
@@ -255,49 +256,49 @@
       "3m": {
         "score": 40,
         "typ": "low",
-        "t": 1795315698
+        "t": 1795316298
       },
       "5m": {
         "score": 53,
         "typ": "mitte",
-        "t": 1795315698
+        "t": 1795316298
       },
       "15m": {
         "score": 53,
         "typ": "mitte",
-        "t": 1795315698
+        "t": 1795316298
       },
       "1h": {
         "score": 46,
         "typ": "mitte",
-        "t": 1795315698
+        "t": 1795316298
       },
       "4h": {
         "score": 40,
         "typ": "low",
-        "t": 1795315698
+        "t": 1795316298
       },
       "1d": {
         "score": 53,
         "typ": "mitte",
-        "t": 1795315698
+        "t": 1795316298
       },
       "1w": {
         "score": 40,
         "typ": "low",
-        "t": 1795315698
+        "t": 1795316298
       },
       "1M": {
         "score": 40,
         "typ": "low",
-        "t": 1795315698
+        "t": 1795316298
       }
     }
   },
   "recentTrack": {
-    "n": 1094,
+    "n": 1095,
     "hits": 559,
-    "hitRate": 0.5109689213893968,
+    "hitRate": 0.5105022831050229,
     "windowDays": 14,
     "usingNewFormulaOnly": true
   },
@@ -305,10 +306,10 @@
     "windows": [
       {
         "windowHours": 1,
-        "flips": 1,
-        "n": 7,
-        "flipsPerHour": 1,
-        "unstable": true
+        "flips": 0,
+        "n": 6,
+        "flipsPerHour": 0,
+        "unstable": false
       },
       {
         "windowHours": 4,
@@ -326,44 +327,44 @@
       },
       {
         "windowHours": 24,
-        "flips": 8,
+        "flips": 7,
         "n": 144,
-        "flipsPerHour": 0.3333333333333333,
+        "flipsPerHour": 0.2916666666666667,
         "unstable": false
       }
     ],
-    "anyUnstable": true,
+    "anyUnstable": false,
     "worst": {
-      "windowHours": 1,
-      "flips": 1,
-      "n": 7,
-      "flipsPerHour": 1,
-      "unstable": true
+      "windowHours": 24,
+      "flips": 7,
+      "n": 144,
+      "flipsPerHour": 0.2916666666666667,
+      "unstable": false
     },
-    "flips": 1,
-    "n": 7,
-    "windowHours": 1
+    "flips": 7,
+    "n": 144,
+    "windowHours": 24
   },
   "redundancy": [
     {
       "pair": "Fear & Greed × Long/Short",
       "agreement": 1,
-      "n": 1313
+      "n": 1314
     },
     {
       "pair": "Fear & Greed × Impuls-Erschöpfung",
-      "agreement": 0.8272727272727273,
-      "n": 550
+      "agreement": 0.8275862068965517,
+      "n": 551
     },
     {
       "pair": "Impuls-Erschöpfung × Long/Short",
-      "agreement": 0.8165869218500797,
-      "n": 627
+      "agreement": 0.8168789808917197,
+      "n": 628
     },
     {
       "pair": "Orderbook × Trend",
-      "agreement": 0.7326007326007326,
-      "n": 546
+      "agreement": 0.7330895795246801,
+      "n": 547
     },
     {
       "pair": "RSI × Trend",
@@ -377,8 +378,8 @@
     },
     {
       "pair": "CVD × Trend",
-      "agreement": 0.61049902786779,
-      "n": 1543
+      "agreement": 0.6107512953367875,
+      "n": 1544
     },
     {
       "pair": "Impuls-Erschöpfung × RSI",
@@ -387,8 +388,8 @@
     },
     {
       "pair": "CVD × Long/Short",
-      "agreement": 0.4746103569632981,
-      "n": 1989
+      "agreement": 0.4743718592964824,
+      "n": 1990
     },
     {
       "pair": "CVD × RSI",
@@ -496,9 +497,9 @@
       }
     }
   },
-  "pulsePoints": 18700,
-  "activityPoints": 18578,
-  "outlierPoints": 18579,
+  "pulsePoints": 18701,
+  "activityPoints": 18579,
+  "outlierPoints": 18580,
   "datenbasisSeit": 1783720226,
   "langzeitT": 1795306329,
   "trendRegimeCal": [
@@ -519,7 +520,7 @@
     }
   ],
   "konfluenz": {
-    "points": 18579,
+    "points": 18580,
     "coins": [
       {
         "sym": "AVAX",
@@ -566,7 +567,7 @@
     ]
   },
   "dominanceTrend": {
-    "current": 57.79,
+    "current": 57.77,
     "recentAvg": 57.72,
     "baseAvg": 59.11,
     "delta": -1.39
@@ -756,8 +757,8 @@
       "open": 736
     },
     "1h": {
-      "n": 567,
-      "filledN": 317,
+      "n": 566,
+      "filledN": 316,
       "fillRate": 0.56,
       "medianCandles": 3,
       "open": 250
@@ -772,9 +773,9 @@
   },
   "activityNow": {
     "label": "Normal",
-    "volRatio": 1.52,
-    "depthRatio": 1.09,
-    "baselineN": 2574,
+    "volRatio": 1.51,
+    "depthRatio": 0.91,
+    "baselineN": 2575,
     "vd": 2
   },
   "tfScores": {
@@ -788,34 +789,6 @@
     "1M": 40
   },
   "tfScoreHist": [
-    {
-      "t": 1795294235,
-      "s": {
-        "3m": 64,
-        "5m": 78,
-        "15m": 86,
-        "1h": 60,
-        "4h": 33,
-        "1d": 48,
-        "1w": 33,
-        "1M": 33
-      },
-      "q": "dienst"
-    },
-    {
-      "t": 1795294535,
-      "s": {
-        "3m": 78,
-        "5m": 86,
-        "15m": 86,
-        "1h": 60,
-        "4h": 33,
-        "1d": 48,
-        "1w": 33,
-        "1M": 33
-      },
-      "q": "dienst"
-    },
     {
       "t": 1795294836,
       "s": {
@@ -1784,6 +1757,34 @@
     },
     {
       "t": 1795315542,
+      "s": {
+        "3m": 40,
+        "5m": 53,
+        "15m": 53,
+        "1h": 46,
+        "4h": 40,
+        "1d": 53,
+        "1w": 40,
+        "1M": 40
+      },
+      "q": "dienst"
+    },
+    {
+      "t": 1795315842,
+      "s": {
+        "3m": 53,
+        "5m": 53,
+        "15m": 53,
+        "1h": 46,
+        "4h": 40,
+        "1d": 53,
+        "1w": 40,
+        "1M": 40
+      },
+      "q": "dienst"
+    },
+    {
+      "t": 1795316142,
       "s": {
         "3m": 40,
         "5m": 53,
